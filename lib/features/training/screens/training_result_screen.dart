@@ -1,23 +1,25 @@
 import 'package:flutter/material.dart';
 
+import '../model/session_result.dart';
+
 class TrainingResultScreen extends StatelessWidget {
   const TrainingResultScreen({
     super.key,
-    required this.pairCount,
-    required this.errorCount,
+    required this.result,
     required this.onPlayAgain,
     required this.onBackToSetup,
-    this.timedOut = false,
   });
 
-  final bool timedOut;
-  final int pairCount;
-  final int errorCount;
+  final SessionResult result;
   final VoidCallback onPlayAgain;
   final VoidCallback onBackToSetup;
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final seconds = result.elapsedTime.inSeconds;
+    final time =
+        '${seconds ~/ 60}:${(seconds % 60).toString().padLeft(2, '0')}';
     return Scaffold(
       appBar: AppBar(title: const Text('Результат')),
       body: SafeArea(
@@ -32,19 +34,46 @@ class TrainingResultScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Text(
-                    timedOut ? 'Время вышло' : 'Тренировка завершена',
+                    switch (result.endReason) {
+                      SessionEndReason.targetReached => 'Уровень пройден',
+                      SessionEndReason.timeExpired => 'Время вышло',
+                      SessionEndReason.userExited => 'Тренировка завершена',
+                    },
                     textAlign: TextAlign.center,
-                    style: Theme.of(context).textTheme.headlineMedium,
+                    style: theme.textTheme.headlineMedium,
                   ),
                   const SizedBox(height: 24),
                   Text(
-                    'Количество пар: $pairCount',
+                    '${result.completedMatches} / ${result.targetMatches}',
                     textAlign: TextAlign.center,
+                    style: theme.textTheme.displaySmall?.copyWith(
+                      fontFeatures: const [FontFeature.tabularFigures()],
+                    ),
                   ),
-                  const SizedBox(height: 8),
-                  Text(
-                    'Количество ошибок: $errorCount',
-                    textAlign: TextAlign.center,
+                  const SizedBox(height: 24),
+                  DecoratedBox(
+                    decoration: BoxDecoration(
+                      color: theme.colorScheme.surfaceContainer,
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(20),
+                      child: Column(
+                        children: [
+                          if (result.targetReached) ...[
+                            Text(
+                              'Время: $time',
+                              style: theme.textTheme.titleMedium,
+                            ),
+                            const SizedBox(height: 8),
+                          ],
+                          Text(
+                            'Ошибки: ${result.wrongAttempts}',
+                            style: theme.textTheme.titleMedium,
+                          ),
+                        ],
+                      ),
+                    ),
                   ),
                   const SizedBox(height: 32),
                   FilledButton(
@@ -54,7 +83,7 @@ class TrainingResultScreen extends StatelessWidget {
                   const SizedBox(height: 12),
                   OutlinedButton(
                     onPressed: onBackToSetup,
-                    child: const Text('Назад к настройке'),
+                    child: const Text('К настройке'),
                   ),
                 ],
               ),

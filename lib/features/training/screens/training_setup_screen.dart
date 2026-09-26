@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../logic/matching_engine.dart';
 import '../model/test_words.dart';
-import '../model/session_config.dart';
+
+import '../model/match_levels.dart';
 import 'training_game_screen.dart';
 
 class TrainingSetupScreen extends StatefulWidget {
@@ -13,7 +14,7 @@ class TrainingSetupScreen extends StatefulWidget {
 }
 
 class _TrainingSetupScreenState extends State<TrainingSetupScreen> {
-  int _pairCount = 4;
+  int _pairCount = standardMatchLevel.visiblePairs;
 
   @override
   Widget build(BuildContext context) {
@@ -51,13 +52,8 @@ class _TrainingSetupScreenState extends State<TrainingSetupScreen> {
                     onPressed: () {
                       final game = MatchingEngine.start(
                         words: testWords,
-                        config: SessionConfig(
+                        config: standardMatchLevel.toSessionConfig(
                           visiblePairs: _pairCount,
-                          wordPoolSize: 20,
-                          targetMatches: 60,
-                          maxMistakes: 5,
-                          mode: SessionMode.timed,
-                          timeLimitSeconds: 120,
                         ),
                       );
                       Navigator.of(context).push(

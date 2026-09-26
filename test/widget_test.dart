@@ -4,7 +4,7 @@ import 'package:word_journey/app/word_journey_app.dart';
 
 const _titles = ['Путешествие', 'Темы', 'Повторение'];
 const _messages = [
-  'Здесь появится карта мира',
+  'Travel Atlas',
   'Тестовая тренировка',
   'Здесь появятся слова для повторения',
 ];

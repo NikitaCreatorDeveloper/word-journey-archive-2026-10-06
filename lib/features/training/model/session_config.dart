@@ -1,7 +1,7 @@
 enum SessionMode { practice, timed, checkpoint }
 
 /// Shared input for training launched from any part of the app.
-/// Timed sessions can continue beyond their progress goal; mistake limits remain metadata.
+/// A deadline limits the time to reach the goal; mistake limits remain metadata.
 class SessionConfig {
   SessionConfig({
     required this.visiblePairs,
@@ -11,9 +11,7 @@ class SessionConfig {
     required this.mode,
     this.timeLimitSeconds,
     bool? finishOnTarget,
-  }) : finishOnTarget =
-           finishOnTarget ??
-           (mode != SessionMode.timed || timeLimitSeconds == null) {
+  }) : finishOnTarget = finishOnTarget ?? true {
     if (visiblePairs < 1) {
       throw ArgumentError.value(
         visiblePairs,

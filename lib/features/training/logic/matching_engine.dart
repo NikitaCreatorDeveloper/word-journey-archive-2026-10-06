@@ -3,6 +3,7 @@ import 'dart:math';
 import '../model/matching_card.dart';
 import '../model/session_config.dart';
 import '../model/session_state.dart';
+import '../model/session_result.dart';
 import '../model/word_pair.dart';
 
 enum MatchFeedback { correct, incorrect }
@@ -59,6 +60,8 @@ class MatchingEngine {
   final Map<String, int> _uses = {};
   final Map<int, ({int right, int streak})> _positionHistory = {};
   SessionState _state;
+  SessionResult? _result;
+  SessionResult? get result => _result;
   BoardTransition? _batch;
   int _issued = 0;
   int _occurrence = 0;
@@ -88,7 +91,7 @@ class MatchingEngine {
   int get matchedCount => state.matchedCount;
   int get errorCount => state.mistakes;
   double get progress => state.progress;
-  bool get isComplete => state.isComplete;
+  bool get isComplete => _result != null || state.isComplete;
   String? get selectedCardId => state.selectedCardId;
 
   MatchingCard? _find(String? id) {
@@ -151,17 +154,49 @@ class MatchingEngine {
     _scheduleBatch();
   }
 
-  void expireTimeLimit() {
-    if (!config.isTimed || isComplete) {
-      return;
+  /// The only result-writing path. Later terminal events return the same snapshot.
+  SessionResult endSession({
+    required SessionEndReason reason,
+    required Duration elapsedTime,
+    required Duration? remainingTime,
+  }) {
+    if (_result case final result?) {
+      return result;
     }
+    // A goal already accepted before a timeout cannot be overwritten.
+    final endReason = config.finishOnTarget && matchedCount >= totalPairCount
+        ? SessionEndReason.targetReached
+        : reason;
+    assert(
+      endReason != SessionEndReason.targetReached ||
+          matchedCount >= totalPairCount,
+    );
     _state = SessionState(
       config: config,
       matchedCount: matchedCount,
       mistakes: errorCount,
-      timedOut: true,
+      timedOut: endReason == SessionEndReason.timeExpired,
+      endReason: endReason,
+    );
+    _result = SessionResult(
+      targetMatches: totalPairCount,
+      completedMatches: matchedCount,
+      wrongAttempts: errorCount,
+      elapsedTime: elapsedTime,
+      remainingTime: remainingTime,
+      endReason: endReason,
     );
     assert(debugValidate());
+    return _result!;
+  }
+
+  void expireTimeLimit() {
+    if (!config.isTimed) return;
+    endSession(
+      reason: SessionEndReason.timeExpired,
+      elapsedTime: Duration(seconds: config.timeLimitSeconds!),
+      remainingTime: Duration.zero,
+    );
   }
 
   void _update({int? matches, int? mistakes, String? selected}) {
@@ -171,6 +206,7 @@ class MatchingEngine {
       mistakes: mistakes ?? errorCount,
       selectedCardId: selected,
       timedOut: state.timedOut,
+      endReason: state.endReason,
     );
   }
 

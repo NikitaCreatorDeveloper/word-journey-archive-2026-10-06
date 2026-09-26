@@ -90,11 +90,8 @@ Future<void> finishSession(WidgetTester tester, MatchingEngine game) async {
     expect(game.debugValidate(), isTrue);
     await tester.pumpAndSettle();
   }
-  if (!game.isComplete) {
-    game.expireTimeLimit();
-    await tester.pump(const Duration(milliseconds: 101));
-    await tester.pumpAndSettle();
-  }
+  expect(game.isComplete, isTrue);
+  expect(game.result?.targetReached, isTrue);
 }
 
 void main() {
@@ -125,7 +122,7 @@ void main() {
       expect(find.text('English'), findsNothing);
       expect(find.text('Русский'), findsNothing);
       await finishSession(tester, g);
-      expect(find.text('Количество пар: 60'), findsOneWidget);
+      expect(find.text('60 / 60'), findsOneWidget);
       await tapVisible(tester, find.text('Ещё раз'));
       await tester.pumpAndSettle();
       final replay = currentGame(tester);
@@ -134,7 +131,7 @@ void main() {
       expect(replay.inactivePairCount, 0);
       expect(shownProgress(tester), 0);
       await finishSession(tester, replay);
-      await tapVisible(tester, find.text('Назад к настройке'));
+      await tapVisible(tester, find.text('К настройке'));
       await tester.pumpAndSettle();
       expect(find.byType(TrainingSetupScreen), findsOneWidget);
       expect(
@@ -407,7 +404,7 @@ void main() {
         addTearDown(tester.platformDispatcher.clearTextScaleFactorTestValue);
         await openTraining(tester, 5);
         await finishSession(tester, currentGame(tester));
-        expect(find.text('Количество пар: 60'), findsOneWidget);
+        expect(find.text('60 / 60'), findsOneWidget);
         expect(tester.takeException(), isNull);
       },
     );

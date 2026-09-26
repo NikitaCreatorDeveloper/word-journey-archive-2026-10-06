@@ -106,25 +106,22 @@ void main() {
     expect(c.remaining, Duration.zero);
     expect(() => SessionClock(limitSeconds: 0), throwsArgumentError);
   });
-  test(
-    'Timed goal only caps progress; matching and batches continue beyond it',
-    () {
-      final g = timed(target: 3);
-      expect(g.cards, hasLength(8));
-      for (var i = 0; i < 100; i++) {
-        solve(g);
-        drain(g);
-        expect(g.debugValidate(), isTrue);
-        expect(g.isComplete, isFalse);
-        expect(g.progress, ((i + 1) / 3).clamp(0.0, 1.0));
-      }
-      expect(g.matchedCount, 100);
-      g.expireTimeLimit();
-      expect(g.isComplete, isTrue);
-      expect(g.state.timedOut, isTrue);
-      expect(g.progress, 1);
-    },
-  );
+  test('Explicit legacy endless config can still continue beyond its progress goal', () {
+    final g = timed(target: 3, finish: false);
+    expect(g.cards, hasLength(8));
+    for (var i = 0; i < 100; i++) {
+      solve(g);
+      drain(g);
+      expect(g.debugValidate(), isTrue);
+      expect(g.isComplete, isFalse);
+      expect(g.progress, ((i + 1) / 3).clamp(0.0, 1.0));
+    }
+    expect(g.matchedCount, 100);
+    g.expireTimeLimit();
+    expect(g.isComplete, isTrue);
+    expect(g.state.timedOut, isTrue);
+    expect(g.progress, 1);
+  });
   test('Config can explicitly finish on goal in a timed session', () {
     final g = timed(target: 2, finish: true);
     solve(g);
@@ -235,8 +232,8 @@ void main() {
       expect(find.byType(TrainingResultScreen), findsNothing);
       await tester.pumpAndSettle();
       expect(find.text('Время вышло'), findsOneWidget);
-      expect(find.text('Количество пар: 0'), findsOneWidget);
-      expect(find.text('Количество ошибок: 0'), findsOneWidget);
+      expect(find.text('0 / 60'), findsOneWidget);
+      expect(find.text('Ошибки: 0'), findsOneWidget);
     },
   );
   testWidgets(
@@ -263,7 +260,7 @@ void main() {
       await tester.pumpAndSettle();
       expect(g.transitions, isEmpty);
       expect(g.debugValidate(), isTrue);
-      expect(find.text('Количество пар: 2'), findsOneWidget);
+      expect(find.text('2 / 60'), findsOneWidget);
       g.completeTransition(token);
       expect(g.matchedCount, 2);
       expect(tester.takeException(), isNull);

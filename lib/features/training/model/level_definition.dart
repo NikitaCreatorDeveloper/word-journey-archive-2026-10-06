@@ -23,8 +23,8 @@ class LevelDefinition {
   final SessionMode mode;
   final bool? finishOnTarget;
 
-  SessionConfig toSessionConfig() => SessionConfig(
-    visiblePairs: visiblePairs,
+  SessionConfig toSessionConfig({int? visiblePairs}) => SessionConfig(
+    visiblePairs: visiblePairs ?? this.visiblePairs,
     wordPoolSize: wordPoolSize,
     targetMatches: targetMatches,
     maxMistakes: maxMistakes,

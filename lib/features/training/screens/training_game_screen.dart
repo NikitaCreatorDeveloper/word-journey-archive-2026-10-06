@@ -7,6 +7,8 @@ import 'package:flutter/services.dart';
 import '../../../app/app_theme.dart';
 import '../logic/matching_engine.dart';
 import '../logic/session_clock.dart';
+import '../logic/training_session.dart';
+import '../model/session_result.dart';
 import '../widgets/training_board.dart';
 import '../widgets/training_progress_header.dart';
 import 'training_result_screen.dart';
@@ -29,7 +31,7 @@ class _TrainingGameScreenState extends State<TrainingGameScreen>
   bool _confirmingExit = false;
   bool _foreground = true;
   bool get _paused => !_foreground || _confirmingExit;
-  SessionClock? _clock;
+  late final TrainingSession _session;
   Timer? _pulse;
   int? _shownSeconds;
   late final AnimationController _finish =
@@ -49,14 +51,10 @@ class _TrainingGameScreenState extends State<TrainingGameScreen>
     _foreground =
         WidgetsBinding.instance.lifecycleState == null ||
         WidgetsBinding.instance.lifecycleState == AppLifecycleState.resumed;
+    _session = TrainingSession(widget.game, clock: widget.clock);
+    if (_foreground) _session.resume();
     if (widget.game.config.isTimed) {
-      _clock =
-          widget.clock ??
-          SessionClock(limitSeconds: widget.game.config.timeLimitSeconds!);
-      if (_foreground) {
-        _clock!.resume();
-      }
-      _shownSeconds = _clock!.remainingSeconds;
+      _shownSeconds = _session.clock.remainingSeconds;
       _pulse = Timer.periodic(
         AppTokens.clockRefreshInterval,
         (_) => _syncClock(),
@@ -85,9 +83,9 @@ class _TrainingGameScreenState extends State<TrainingGameScreen>
       }
     }
     if (_paused || _finishing) {
-      _clock?.pause();
+      _session.pause();
     } else {
-      _clock?.resume();
+      _session.resume();
     }
     if (!_paused) {
       _syncClock();
@@ -98,10 +96,10 @@ class _TrainingGameScreenState extends State<TrainingGameScreen>
     if (!mounted || _showingResult || _paused) {
       return;
     }
-    if (_clock?.isExpired == true) {
-      widget.game.expireTimeLimit();
-    }
-    final remaining = _clock?.remainingSeconds;
+    _session.tick();
+    final remaining = widget.game.config.isTimed
+        ? _session.clock.remainingSeconds
+        : null;
     if (_shownSeconds != remaining) {
       setState(() => _shownSeconds = remaining);
     }
@@ -109,18 +107,29 @@ class _TrainingGameScreenState extends State<TrainingGameScreen>
   }
 
   void _tryFinish() {
-    if (!mounted || _paused || _finishing || !widget.game.isComplete) {
+    _session.tick();
+    if (!mounted || _paused || _finishing || _session.result == null) {
       return;
     }
     _finishing = true;
-    _clock?.pause();
+    _session.pause();
     // Let any local exit / gap / entry already in flight settle before results.
     _finish.forward(from: 0);
     setState(() {});
   }
 
   Future<void> _requestExit() async {
-    if (_confirmingExit || _showingResult) {
+    _syncClock();
+    if (_confirmingExit ||
+        _showingResult ||
+        _finishing ||
+        _session.result != null) {
+      return;
+    }
+    // Freeze at the dialog boundary too: the deadline may pass after _syncClock.
+    _session.pause();
+    if (_session.result != null) {
+      _tryFinish();
       return;
     }
     _confirmingExit = true;
@@ -148,6 +157,7 @@ class _TrainingGameScreenState extends State<TrainingGameScreen>
     }
     _confirmingExit = false;
     if (leave == true) {
+      _session.endSession(SessionEndReason.userExited);
       _allowExit = true;
       Navigator.of(context).pop();
     } else {
@@ -163,7 +173,7 @@ class _TrainingGameScreenState extends State<TrainingGameScreen>
       return;
     }
     final firstId = game.selectedCardId;
-    final feedback = game.select(cardId);
+    final feedback = _session.select(cardId);
     setState(() {
       if (feedback == MatchFeedback.incorrect) {
         final revision = ++_errorRevision;
@@ -193,9 +203,7 @@ class _TrainingGameScreenState extends State<TrainingGameScreen>
         reverseTransitionDuration: AppTokens.feedbackDuration,
         pageBuilder: (resultContext, animation, secondaryAnimation) =>
             TrainingResultScreen(
-              pairCount: completed.matchedCount,
-              errorCount: completed.errorCount,
-              timedOut: completed.state.timedOut,
+              result: _session.result!,
               onPlayAgain: () {
                 final next = completed.replay();
                 Navigator.of(resultContext).pushReplacement(
@@ -216,7 +224,7 @@ class _TrainingGameScreenState extends State<TrainingGameScreen>
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
     _pulse?.cancel();
-    _clock?.pause();
+    _session.pause();
     _finish.dispose();
     super.dispose();
   }
@@ -258,6 +266,7 @@ class _TrainingGameScreenState extends State<TrainingGameScreen>
                       children: [
                         TrainingProgressHeader(
                           progress: game.progress,
+                          targetMatches: game.totalPairCount,
                           seconds: _shownSeconds,
                           onExit: _requestExit,
                           onSettled: _tryFinish,

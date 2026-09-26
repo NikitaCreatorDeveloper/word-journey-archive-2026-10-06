@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../training/screens/training_setup_screen.dart';
+
 class TopicsScreen extends StatelessWidget {
   const TopicsScreen({super.key});
 
@@ -8,10 +10,15 @@ class TopicsScreen extends StatelessWidget {
     return Center(
       child: SingleChildScrollView(
         padding: const EdgeInsets.all(24),
-        child: Text(
-          'Здесь появятся наборы слов',
-          textAlign: TextAlign.center,
-          style: Theme.of(context).textTheme.bodyLarge,
+        child: FilledButton(
+          onPressed: () {
+            Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (_) => const TrainingSetupScreen(),
+              ),
+            );
+          },
+          child: const Text('Тестовая тренировка'),
         ),
       ),
     );

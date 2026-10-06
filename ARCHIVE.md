@@ -11,4 +11,4 @@ The release `full-backup-2026-10-06` contains complete copies of both local dire
 
 To restore, download every numbered volume for an archive into one folder, then open its `.001` file with 7-Zip and extract it. All volumes must be present. The source repository can also be cloned independently.
 
-The full archives may contain personal application data and local machine paths. This repository is private.
+The full archives may contain personal application data and local machine paths. This repository is public, including the full backup release.

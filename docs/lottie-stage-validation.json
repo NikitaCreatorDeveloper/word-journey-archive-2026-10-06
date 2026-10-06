@@ -1,0 +1,41 @@
+{
+  "stages": {
+    "s1": {
+      "tests": 244,
+      "analyze": "pass",
+      "scope": "Dependency, original assets, memoized preload/parser/renderer tests"
+    },
+    "s2": {
+      "tests": 256,
+      "analyze": "pass",
+      "scope": "Overlay/controller/production integration, fallback/motion/lifecycle"
+    },
+    "s3": {
+      "tests": 257,
+      "analyze": "pass",
+      "debugBuild": "pass",
+      "scope": "Real HUD anchor and Minimal milestone consumption"
+    },
+    "s4": {
+      "tests": 257,
+      "analyze": "pass",
+      "debugBuild": "pass",
+      "scope": "Reduced duplicated shapes after 8.414 ms raster repeat"
+    },
+    "s5": {
+      "tests": 258,
+      "analyze": "pass",
+      "debugBuild": "pass",
+      "scope": "Single reused ticker for standalone Minimal wrapper"
+    },
+    "final": {
+      "tests": 259,
+      "analyze": "pass",
+      "debugBuild": "pass",
+      "scope": "Production Minimal uses full existing Flutter path; old HUD/journal regression kept and passed after repair"
+    }
+  },
+  "nativeQueueRegressions": 6,
+  "globalToolsUpgraded": false,
+  "commitOrPublication": false
+}

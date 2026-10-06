@@ -16,4 +16,8 @@ class MatchingCard {
   String get conceptId => wordId;
   final String text;
   final CardLanguage language;
+
+  /// Occurrence IDs reject stale input; they never determine an answer.
+  bool isPartnerOf(MatchingCard other) =>
+      conceptId == other.conceptId && language != other.language;
 }

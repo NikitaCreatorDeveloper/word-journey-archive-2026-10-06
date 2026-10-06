@@ -1,0 +1,10 @@
+{
+  "acceptanceTimings": false,
+  "source": "unchanged final profile APK; production Match, C1, 5 pairs, Full, sounds and haptics",
+  "captureSeconds": 32,
+  "caseObservationSeconds": {
+    "A-custompaint-full-c1": 0.203,
+    "B-lottie-full-c1": 14.125
+  },
+  "ADBInputInjection": false
+}

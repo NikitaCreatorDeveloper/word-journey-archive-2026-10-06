@@ -1,0 +1,18 @@
+--------- beginning of main
+10-02 13:33:11.159  6918  7292 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+10-02 13:33:11.171  6918  7308 I flutter : The Dart VM service is listening on http://127.0.0.1:38421/6EFXgmTABh0=/
+10-02 13:33:11.187  6918  7292 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+10-02 13:33:12.452  6918  6918 I flutter : WJ_PROBE_COLD:catalogAndMemoryLoadMs=1106
+10-02 13:33:15.645  6918  6918 I flutter : WJ_PROBE_SCREEN:match-5-full-c1
+10-02 13:33:28.945  6918  6918 I flutter : WJ_PROBE_METRIC:{"scenario":"match-5-full-c1","frames":1104,"matches":60,"uiP50Ms":3.342,"uiP95Ms":6.704,"uiP99Ms":10.191,"rasterP50Ms":6.669,"rasterP95Ms":11.848,"rasterP99Ms":15.247,"over8_33ms":253,"over16_67ms":11}
+10-02 13:33:29.949  6918  6918 I flutter : WJ_PROBE_SCREEN:match-5-full-c1-repeat
+10-02 13:33:42.770  6918  6918 I flutter : WJ_PROBE_METRIC:{"scenario":"match-5-full-c1-repeat","frames":1074,"matches":60,"uiP50Ms":3.3,"uiP95Ms":6.888,"uiP99Ms":11.095,"rasterP50Ms":6.604,"rasterP95Ms":11.355,"rasterP99Ms":14.664,"over8_33ms":201,"over16_67ms":7}
+10-02 13:33:43.774  6918  6918 I flutter : WJ_PROBE_SCREEN:correct-line-c1
+10-02 13:33:44.929  6918  6918 I flutter : WJ_PROBE_METRIC:{"scenario":"correct-line-c1","frames":76,"matches":1,"uiP50Ms":0.942,"uiP95Ms":1.94,"uiP99Ms":3.946,"rasterP50Ms":3.606,"rasterP95Ms":8.09,"rasterP99Ms":14.169,"over8_33ms":4,"over16_67ms":0}
+10-02 13:33:44.929  6918  6918 I flutter : WJ_PROBE_SCREEN:combo-lightning-c1
+10-02 13:33:46.084  6918  6918 I flutter : WJ_PROBE_METRIC:{"scenario":"combo-lightning-c1","frames":83,"matches":2,"uiP50Ms":1.131,"uiP95Ms":3.933,"uiP99Ms":4.792,"rasterP50Ms":4.608,"rasterP95Ms":7.622,"rasterP99Ms":8.78,"over8_33ms":3,"over16_67ms":0}
+10-02 13:33:46.084  6918  6918 I flutter : WJ_PROBE_SCREEN:batch-replacement-c1
+10-02 13:33:47.342  6918  6918 I flutter : WJ_PROBE_METRIC:{"scenario":"batch-replacement-c1","frames":89,"matches":4,"uiP50Ms":1.235,"uiP95Ms":4.289,"uiP99Ms":5.72,"rasterP50Ms":4.97,"rasterP95Ms":8.25,"rasterP99Ms":14.088,"over8_33ms":4,"over16_67ms":1}
+10-02 13:33:52.807  6918  6918 I flutter : WJ_PROBE_SCREEN:milestone-20-c1
+10-02 13:33:53.962  6918  6918 I flutter : WJ_PROBE_METRIC:{"scenario":"milestone-20-c1","frames":80,"matches":20,"uiP50Ms":1.246,"uiP95Ms":2.383,"uiP99Ms":5.72,"rasterP50Ms":4.948,"rasterP95Ms":9.733,"rasterP99Ms":15.652,"over8_33ms":8,"over16_67ms":1}
+10-02 13:33:53.962  6918  6918 I flutter : WJ_PROBE_DONE:match

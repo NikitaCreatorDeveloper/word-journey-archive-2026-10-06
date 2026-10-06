@@ -1,0 +1,66 @@
+--------- beginning of main
+10-02 10:29:43.878 11995 12295 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+10-02 10:29:43.902 11995 12325 I flutter : The Dart VM service is listening on http://127.0.0.1:39565/WoSFDQokO-w=/
+10-02 10:29:43.923 11995 12295 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+10-02 10:29:45.505 11995 11995 I flutter : WJ_PROBE_COLD:catalogAndMemoryLoadMs=1384
+10-02 10:29:48.343 11995 11995 I flutter : WJ_PROBE_SCREEN:categories-light
+10-02 10:29:51.945 11995 11995 I flutter : WJ_PROBE_SCREEN:packs-light
+10-02 10:29:55.548 11995 11995 I flutter : WJ_PROBE_SCREEN:pack-light
+10-02 10:29:59.150 11995 11995 I flutter : WJ_PROBE_SCREEN:pack-overview-light
+10-02 10:30:02.752 11995 11995 I flutter : WJ_PROBE_SCREEN:pack-c1-light
+10-02 10:30:06.353 11995 11995 I flutter : WJ_PROBE_SCREEN:result-light
+10-02 10:30:09.955 11995 11995 I flutter : WJ_PROBE_SCREEN:review-light
+10-02 10:30:13.859 11995 11995 I flutter : WJ_PROBE_SCREEN:review-empty-light
+10-02 10:30:17.462 11995 11995 I flutter : WJ_PROBE_SCREEN:progress-light
+10-02 10:30:21.064 11995 11995 I flutter : WJ_PROBE_SCREEN:settings-light
+10-02 10:30:24.667 11995 11995 I flutter : WJ_PROBE_SCREEN:recall-light
+10-02 10:30:28.270 11995 11995 I flutter : WJ_PROBE_SCREEN:categories-dark
+10-02 10:30:31.872 11995 11995 I flutter : WJ_PROBE_SCREEN:packs-dark
+10-02 10:30:35.475 11995 11995 I flutter : WJ_PROBE_SCREEN:pack-dark
+10-02 10:30:39.078 11995 11995 I flutter : WJ_PROBE_SCREEN:pack-overview-dark
+10-02 10:30:42.681 11995 11995 I flutter : WJ_PROBE_SCREEN:pack-c1-dark
+10-02 10:30:46.284 11995 11995 I flutter : WJ_PROBE_SCREEN:result-dark
+10-02 10:30:49.885 11995 11995 I flutter : WJ_PROBE_SCREEN:review-dark
+10-02 10:30:53.790 11995 11995 I flutter : WJ_PROBE_SCREEN:review-empty-dark
+10-02 10:30:57.393 11995 11995 I flutter : WJ_PROBE_SCREEN:progress-dark
+10-02 10:31:00.995 11995 11995 I flutter : WJ_PROBE_SCREEN:settings-dark
+10-02 10:31:04.597 11995 11995 I flutter : WJ_PROBE_SCREEN:recall-dark
+10-02 10:31:08.200 11995 11995 I flutter : WJ_PROBE_SCREEN:match-light-c1
+10-02 10:31:12.205 11995 11995 I flutter : WJ_PROBE_SCREEN:match-4-calm-a1
+10-02 10:31:23.481 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"match-4-calm-a1","frames":1145,"matches":60,"elapsedMs":11275,"uiP50Ms":1.244,"uiP95Ms":4.015,"uiP99Ms":5.558,"rasterP50Ms":4.066,"rasterP95Ms":6.727,"rasterP99Ms":8.401,"over16_67ms":2,"over8_33ms":13}
+10-02 10:31:24.483 11995 11995 I flutter : WJ_PROBE_SCREEN:match-5-full-c1
+10-02 10:31:35.822 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"match-5-full-c1","frames":1083,"matches":60,"elapsedMs":11337,"uiP50Ms":2.227,"uiP95Ms":6.282,"uiP99Ms":10.707,"rasterP50Ms":8.02,"rasterP95Ms":9.809,"rasterP99Ms":11.855,"over16_67ms":6,"over8_33ms":473}
+10-02 10:31:36.825 11995 11995 I flutter : WJ_PROBE_SCREEN:match-5-calm-c1
+10-02 10:31:48.152 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"match-5-calm-c1","frames":1107,"matches":60,"elapsedMs":11326,"uiP50Ms":1.989,"uiP95Ms":5.585,"uiP99Ms":7.967,"rasterP50Ms":7.623,"rasterP95Ms":8.911,"rasterP99Ms":9.733,"over16_67ms":1,"over8_33ms":295}
+10-02 10:31:49.155 11995 11995 I flutter : WJ_PROBE_SCREEN:match-5-minimal-c1
+10-02 10:32:00.433 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"match-5-minimal-c1","frames":834,"matches":60,"elapsedMs":11278,"uiP50Ms":1.068,"uiP95Ms":4.946,"uiP99Ms":5.71,"rasterP50Ms":3.357,"rasterP95Ms":8.436,"rasterP99Ms":17.321,"over16_67ms":9,"over8_33ms":45}
+10-02 10:32:01.436 11995 11995 I flutter : WJ_PROBE_SCREEN:match-4-full-c1
+10-02 10:32:12.719 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"match-4-full-c1","frames":1173,"matches":60,"elapsedMs":11282,"uiP50Ms":1.249,"uiP95Ms":4.037,"uiP99Ms":5.132,"rasterP50Ms":4.7,"rasterP95Ms":7.222,"rasterP99Ms":10.267,"over16_67ms":2,"over8_33ms":23}
+10-02 10:32:13.722 11995 11995 I flutter : WJ_PROBE_SCREEN:match-5-calm-a1
+10-02 10:32:25.002 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"match-5-calm-a1","frames":1151,"matches":60,"elapsedMs":11279,"uiP50Ms":1.269,"uiP95Ms":4.517,"uiP99Ms":5.843,"rasterP50Ms":4.359,"rasterP95Ms":6.686,"rasterP99Ms":7.877,"over16_67ms":1,"over8_33ms":5}
+10-02 10:32:25.605 11995 11995 I flutter : WJ_PROBE_SCREEN:scroll-categories
+10-02 10:32:32.510 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"scroll-categories","frames":375,"valid":true,"elapsedMs":3902,"uiP50Ms":1.105,"uiP95Ms":2.209,"uiP99Ms":3.533,"rasterP50Ms":8.807,"rasterP95Ms":9.924,"rasterP99Ms":10.794,"over8_33ms":278,"over16_67ms":1}
+10-02 10:32:33.111 11995 11995 I flutter : WJ_PROBE_SCREEN:switch-cefr
+10-02 10:32:38.825 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"switch-cefr","frames":210,"valid":true,"elapsedMs":2713,"uiP50Ms":1.433,"uiP95Ms":4.093,"uiP99Ms":6.403,"rasterP50Ms":8.877,"rasterP95Ms":10.074,"rasterP99Ms":15.023,"over8_33ms":175,"over16_67ms":2}
+10-02 10:32:39.427 11995 11995 I flutter : WJ_PROBE_SCREEN:first-search
+10-02 10:32:43.331 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"first-search","frames":1,"valid":true,"elapsedMs":902,"uiP50Ms":7.206,"uiP95Ms":7.206,"uiP99Ms":7.206,"rasterP50Ms":6.952,"rasterP95Ms":6.952,"rasterP99Ms":6.952,"over8_33ms":0,"over16_67ms":0}
+10-02 10:32:43.931 11995 11995 I flutter : WJ_PROBE_SCREEN:category-c1
+10-02 10:32:47.585 11995 11995 I flutter : WJ_PROBE_SCREEN:category-c1-open
+10-02 10:32:48.087 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"category-c1","frames":27,"valid":true,"elapsedMs":1153,"uiP50Ms":0.426,"uiP95Ms":2.289,"uiP99Ms":7.917,"rasterP50Ms":7.011,"rasterP95Ms":22.938,"rasterP99Ms":23.951,"over8_33ms":4,"over16_67ms":2}
+10-02 10:32:49.041 11995 11995 I flutter : WJ_PROBE_SCREEN:reward-preparation
+10-02 10:32:52.078 11995 11995 I flutter : WJ_PROBE_SCREEN:progress-screen
+10-02 10:32:52.743 11995 11995 I flutter : WJ_PROBE_SCREEN:progress-entered
+10-02 10:32:53.819 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"progress-screen","frames":136,"valid":true,"elapsedMs":1777,"uiP50Ms":0.588,"uiP95Ms":2.127,"uiP99Ms":9.754,"rasterP50Ms":5.364,"rasterP95Ms":10.625,"rasterP99Ms":21.703,"over8_33ms":46,"over16_67ms":5}
+10-02 10:32:54.422 11995 11995 I flutter : WJ_PROBE_SCREEN:reward-preparation
+10-02 10:32:57.433 11995 11995 I flutter : WJ_PROBE_SCREEN:correct-effect
+10-02 10:32:58.575 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"correct-effect","frames":58,"valid":true,"elapsedMs":1152,"uiP50Ms":0.443,"uiP95Ms":0.818,"uiP99Ms":1.431,"rasterP50Ms":2.101,"rasterP95Ms":3.264,"rasterP99Ms":4.3,"over8_33ms":0,"over16_67ms":0}
+10-02 10:32:59.177 11995 11995 I flutter : WJ_PROBE_SCREEN:scroll-packs
+10-02 10:33:02.179 11995 11995 I flutter : WJ_PROBE_SCROLL_EXTENT:262.27272727272725
+10-02 10:33:06.299 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"scroll-packs","frames":432,"valid":true,"elapsedMs":4119,"uiP50Ms":0.519,"uiP95Ms":0.751,"uiP99Ms":1.138,"rasterP50Ms":3.346,"rasterP95Ms":5.854,"rasterP99Ms":6.413,"over8_33ms":1,"over16_67ms":0}
+10-02 10:33:06.900 11995 11995 I flutter : WJ_PROBE_SCREEN:search-categories
+10-02 10:33:12.217 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"search-categories","frames":37,"valid":true,"elapsedMs":2315,"uiP50Ms":0.356,"uiP95Ms":5.93,"uiP99Ms":11.982,"rasterP50Ms":9.11,"rasterP95Ms":16.834,"rasterP99Ms":22.234,"over8_33ms":29,"over16_67ms":3}
+10-02 10:33:12.820 11995 11995 I flutter : WJ_PROBE_SCREEN:reward-preparation
+10-02 10:33:15.835 11995 11995 I flutter : WJ_PROBE_SCREEN:reward
+10-02 10:33:18.325 11995 11995 I flutter : WJ_PROBE_METRIC:{"scenario":"reward","frames":86,"valid":true,"elapsedMs":2503,"uiP50Ms":0.611,"uiP95Ms":1.031,"uiP99Ms":1.382,"rasterP50Ms":4.49,"rasterP95Ms":6.421,"rasterP99Ms":9.213,"over8_33ms":2,"over16_67ms":0}
+10-02 10:33:18.378 11995 11995 I flutter : WJ_PROBE_VOICES:{"count":28,"examples":[{"id":"en-AU-language","label":"en-AU · en-AU-language"},{"id":"en-GB-language","label":"en-GB · en-GB-language"}]}
+10-02 10:33:18.378 11995 11995 I flutter : WJ_PROBE_DONE:[{"scenario":"match-4-calm-a1","frames":1145,"matches":60,"elapsedMs":11275,"uiP50Ms":1.244,"uiP95Ms":4.015,"uiP99Ms":5.558,"rasterP50Ms":4.066,"rasterP95Ms":6.727,"rasterP99Ms":8.401,"over16_67ms":2,"over8_33ms":13},{"scenario":"match-5-full-c1","frames":1083,"matches":60,"elapsedMs":11337,"uiP50Ms":2.227,"uiP95Ms":6.282,"uiP99Ms":10.707,"rasterP50Ms":8.02,"rasterP95Ms":9.809,"rasterP99Ms":11.855,"over16_67ms":6,"over8_33ms":473},{"scenario":"match-5-calm-c1","frames":1107,"matches":60,"elapsedMs":11326,"uiP50Ms":1.989,"uiP95Ms":5.585,"uiP99Ms":7.967,"rasterP50Ms":7.623,"rasterP95Ms":8.911,"rasterP99Ms":9.733,"over16_67ms":1,"over8_33ms":295},{"scenario":"match-5-minimal-c1","frames":834,"matches":60,"elapsedMs":11278,"uiP50Ms":1.068,"uiP95Ms":4.946,"uiP99Ms":5.71,"rasterP50Ms":3.357,"rasterP95Ms":8.436,"rasterP99Ms":17.321,"over16_67ms":9,"over8_33ms":45},{"scenario":"match-4-full-c1","frames":1173,"matches":60,"elapsedMs":11282,"uiP50Ms":1.249,"uiP95Ms":4.037,"uiP99Ms":5.132,"rasterP50Ms":4.

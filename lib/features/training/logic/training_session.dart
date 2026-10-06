@@ -53,6 +53,11 @@ class TrainingSession {
       return null;
     }
     final feedback = game.select(id);
+    if (game.config.enforceMistakeLimit &&
+        game.config.maxMistakes > 0 &&
+        game.errorCount >= game.config.maxMistakes) {
+      endSession(SessionEndReason.mistakeLimit, elapsed: elapsed);
+    }
     if (game.config.finishOnTarget &&
         game.matchedCount >= game.totalPairCount) {
       endSession(SessionEndReason.targetReached, elapsed: elapsed);

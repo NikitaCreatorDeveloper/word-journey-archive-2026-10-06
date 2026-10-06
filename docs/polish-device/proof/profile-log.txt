@@ -1,0 +1,11 @@
+--------- beginning of main
+10-02 13:59:50.611 20495 20724 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+10-02 13:59:50.628 20495 20747 I flutter : The Dart VM service is listening on http://127.0.0.1:41733/ygZ0U3CZL-0=/
+10-02 13:59:50.686 20495 20724 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+10-02 13:59:52.671 20495 20495 I flutter : WJ_PROBE_COLD:catalogAndMemoryLoadMs=1759
+10-02 13:59:55.394 20495 20495 I flutter : WJ_PROBE_SCREEN:pack-c1-dark
+10-02 13:59:59.451 20495 20495 I flutter : WJ_PROBE_SCREEN:setup-five-dark
+10-02 14:00:03.054 20495 20495 I flutter : WJ_PROBE_SCREEN:pack-c1-light
+10-02 14:00:07.112 20495 20495 I flutter : WJ_PROBE_SCREEN:setup-five-light
+10-02 14:00:11.117 20495 20495 I flutter : WJ_PROBE_SCREEN:match-5-full-c1
+10-02 14:00:28.478 20495 20495 I flutter : WJ_PROBE_DONE:proof

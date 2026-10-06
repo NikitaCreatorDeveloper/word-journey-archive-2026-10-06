@@ -1,0 +1,10 @@
+{
+  "path": "D:\\Projects\\word_journey\\checkpoints\\word-journey-lottie-review.apk",
+  "sha256": "8a030fd80f0b00e751173b43c2440d3bd41fd174c250759034f52a45873c8d81",
+  "bytes": 190633994,
+  "mode": "ordinary debug lib/main.dart; no profile defines",
+  "applicationId": "com.wordjourney.app",
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "signingCertificateSHA256": "0535940c371a16e0818928fa971616823285bf353c7902a792b0c2ff774ab189"
+}

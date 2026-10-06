@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<defs>
+<linearGradient id="g0" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B9A5FF"/><stop offset="1" stop-color="#7661E5"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#C2BAFF"/></linearGradient>
+</defs>
+<path d="M 18.000 1.000 L 46.000 1.000 Q 63.000 1.000 63.000 18.000 L 63.000 46.000 Q 63.000 63.000 46.000 63.000 L 18.000 63.000 Q 1.000 63.000 1.000 46.000 L 1.000 18.000 Q 1.000 1.000 18.000 1.000 Z " fill="url(#g0)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 18.000 1.000 L 46.000 1.000 Q 63.000 1.000 63.000 18.000 L 63.000 46.000 Q 63.000 63.000 46.000 63.000 L 18.000 63.000 Q 1.000 63.000 1.000 46.000 L 1.000 18.000 Q 1.000 1.000 18.000 1.000 Z " fill="none" stroke="#A896E3" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 10.000 52.000 L 10.000 26.000 L 22.000 26.000 L 22.000 12.000 L 42.000 12.000 L 42.000 31.000 L 54.000 31.000 L 54.000 52.000 Z " fill="url(#g2)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 28.500 22.000 L 30.500 22.000 Q 31.000 22.000 31.000 22.500 L 31.000 25.500 Q 31.000 26.000 30.500 26.000 L 28.500 26.000 Q 28.000 26.000 28.000 25.500 L 28.000 22.500 Q 28.000 22.000 28.500 22.000 Z " fill="#655BC1" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 36.500 22.000 L 38.500 22.000 Q 39.000 22.000 39.000 22.500 L 39.000 25.500 Q 39.000 26.000 38.500 26.000 L 36.500 26.000 Q 36.000 26.000 36.000 25.500 L 36.000 22.500 Q 36.000 22.000 36.500 22.000 Z " fill="#655BC1" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 28.500 31.000 L 30.500 31.000 Q 31.000 31.000 31.000 31.500 L 31.000 34.500 Q 31.000 35.000 30.500 35.000 L 28.500 35.000 Q 28.000 35.000 28.000 34.500 L 28.000 31.500 Q 28.000 31.000 28.500 31.000 Z " fill="#655BC1" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 36.500 31.000 L 38.500 31.000 Q 39.000 31.000 39.000 31.500 L 39.000 34.500 Q 39.000 35.000 38.500 35.000 L 36.500 35.000 Q 36.000 35.000 36.000 34.500 L 36.000 31.500 Q 36.000 31.000 36.500 31.000 Z " fill="#655BC1" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 28.500 41.000 L 30.500 41.000 Q 31.000 41.000 31.000 41.500 L 31.000 44.500 Q 31.000 45.000 30.500 45.000 L 28.500 45.000 Q 28.000 45.000 28.000 44.500 L 28.000 41.500 Q 28.000 41.000 28.500 41.000 Z " fill="#655BC1" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 36.500 41.000 L 38.500 41.000 Q 39.000 41.000 39.000 41.500 L 39.000 44.500 Q 39.000 45.000 38.500 45.000 L 36.500 45.000 Q 36.000 45.000 36.000 44.500 L 36.000 41.500 Q 36.000 41.000 36.500 41.000 Z " fill="#655BC1" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

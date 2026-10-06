@@ -1,0 +1,16 @@
+lib/features/world/data/cafe_seed.dart
+lib/features/world/data/travel_content.dart
+lib/features/world/geometry/world_geometry.dart
+lib/features/world/model/world_content.dart
+lib/features/world/screens/world_screens.dart
+lib/features/world/widgets/atlas_map.dart
+lib/features/world/widgets/cafe_artwork.dart
+lib/features/world/widgets/geographic_atlas.dart
+lib/features/travel/travel_screen.dart
+test/features/world/world_test.dart
+integration_test/atlas_device_test.dart
+test_driver/atlas_test.dart
+assets/maps/world_110m.json
+tool/build_world_asset.py
+lib/features/topics/topics_screen.dart
+docs/map-data-source.md

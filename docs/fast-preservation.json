@@ -1,0 +1,24 @@
+{
+  "protectedFilesIdentical": 109,
+  "intentionalNativeAudioChanges": {},
+  "HEADUnchanged": "f8962c87bee8caafdda6ad0930d21ee3ca7dbac3",
+  "catalogSHA256": "89b67ecea52a490c96c00479f652ca0baf64be0119b79ef597c2e8b879048a21",
+  "phoneTablesIdentical": {
+    "settings": true,
+    "events": true,
+    "sessions": true,
+    "flags": true,
+    "awards": true,
+    "custom": true
+  },
+  "schemaIdentical": true,
+  "phoneRowCounts": {
+    "settings": 1,
+    "events": 563,
+    "sessions": 10,
+    "flags": 0,
+    "awards": 5,
+    "custom": 0
+  },
+  "sharedPreferencesIdentical": true
+}

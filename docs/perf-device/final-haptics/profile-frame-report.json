@@ -1,0 +1,453 @@
+{
+  "complete": true,
+  "simultaneousVideoRecording": false,
+  "deviceSerial": "2aa7666ff377",
+  "physicalRefreshBefore": [
+    "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+  ],
+  "systemFontScale": "1.0",
+  "density": "Physical density: 440",
+  "catalogAndMemoryColdMs": null,
+  "metrics": [
+    {
+      "scenario": "match-5-full-c1",
+      "soundsEnabled": true,
+      "hapticsEnabled": true,
+      "harnessLookupP95Ms": 0.898,
+      "frames": 1357,
+      "matches": 60,
+      "mistakes": 3,
+      "attemptedPairs": 60,
+      "uiP50Ms": 1.121,
+      "uiP95Ms": 4.383,
+      "uiP99Ms": 8.676,
+      "rasterP50Ms": 4.772,
+      "rasterP95Ms": 7.928,
+      "rasterP99Ms": 11.212,
+      "over8_33ms": 56,
+      "over16_67ms": 3,
+      "hotspots": {
+        "combo.build": 73,
+        "board.build": 151,
+        "card.build": 442,
+        "surface.paint": 230,
+        "glyph.paint": 230,
+        "card.paint": 2547,
+        "connection.paint": 407,
+        "bolt.paint": 1141,
+        "timer.build": 12,
+        "milestone.20.build": 1,
+        "milestone.30.build": 1,
+        "game.build": 2,
+        "hud.build": 2,
+        "milestone.60.build": 1,
+        "background.paint": 1
+      },
+      "tapToStateP50Ms": 0.044,
+      "tapToStateP95Ms": 0.182,
+      "tapToPostFrameP50Ms": 8.498,
+      "tapToPostFrameP95Ms": 17.282,
+      "acceptedTapSamples": 126,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "match-5-full-repeat-c1",
+      "soundsEnabled": true,
+      "hapticsEnabled": true,
+      "harnessLookupP95Ms": 0.854,
+      "frames": 1366,
+      "matches": 60,
+      "mistakes": 3,
+      "attemptedPairs": 60,
+      "uiP50Ms": 1.254,
+      "uiP95Ms": 3.897,
+      "uiP99Ms": 6.345,
+      "rasterP50Ms": 5.136,
+      "rasterP95Ms": 7.8,
+      "rasterP99Ms": 12.849,
+      "over8_33ms": 44,
+      "over16_67ms": 2,
+      "hotspots": {
+        "combo.build": 73,
+        "board.build": 151,
+        "card.build": 442,
+        "surface.paint": 230,
+        "glyph.paint": 230,
+        "card.paint": 2559,
+        "connection.paint": 413,
+        "bolt.paint": 1141,
+        "timer.build": 12,
+        "milestone.20.build": 1,
+        "milestone.30.build": 1,
+        "game.build": 2,
+        "hud.build": 2,
+        "milestone.60.build": 1,
+        "background.paint": 1
+      },
+      "tapToStateP50Ms": 0.042,
+      "tapToStateP95Ms": 0.171,
+      "tapToPostFrameP50Ms": 8.377,
+      "tapToPostFrameP95Ms": 15.518,
+      "acceptedTapSamples": 126,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "sound-off-full-c1",
+      "soundsEnabled": false,
+      "hapticsEnabled": true,
+      "harnessLookupP95Ms": 0.343,
+      "frames": 1372,
+      "matches": 60,
+      "mistakes": 3,
+      "attemptedPairs": 60,
+      "uiP50Ms": 1.375,
+      "uiP95Ms": 3.396,
+      "uiP99Ms": 6.132,
+      "rasterP50Ms": 6.046,
+      "rasterP95Ms": 8.24,
+      "rasterP99Ms": 11.123,
+      "over8_33ms": 66,
+      "over16_67ms": 2,
+      "hotspots": {
+        "combo.build": 73,
+        "board.build": 151,
+        "card.build": 442,
+        "surface.paint": 230,
+        "glyph.paint": 230,
+        "card.paint": 2581,
+        "connection.paint": 410,
+        "bolt.paint": 1150,
+        "timer.build": 12,
+        "milestone.20.build": 1,
+        "milestone.30.build": 1,
+        "game.build": 2,
+        "hud.build": 2,
+        "milestone.60.build": 1,
+        "background.paint": 1
+      },
+      "tapToStateP50Ms": 0.048,
+      "tapToStateP95Ms": 0.075,
+      "tapToPostFrameP50Ms": 7.421,
+      "tapToPostFrameP95Ms": 10.763,
+      "acceptedTapSamples": 126,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "match-5-calm-c1",
+      "soundsEnabled": true,
+      "hapticsEnabled": true,
+      "harnessLookupP95Ms": 0.367,
+      "frames": 1319,
+      "matches": 60,
+      "mistakes": 3,
+      "attemptedPairs": 60,
+      "uiP50Ms": 1.307,
+      "uiP95Ms": 3.341,
+      "uiP99Ms": 6.298,
+      "rasterP50Ms": 5.838,
+      "rasterP95Ms": 8.183,
+      "rasterP99Ms": 11.093,
+      "over8_33ms": 57,
+      "over16_67ms": 1,
+      "hotspots": {
+        "combo.build": 73,
+        "board.build": 151,
+        "card.build": 396,
+        "surface.paint": 230,
+        "glyph.paint": 230,
+        "card.paint": 2116,
+        "connection.paint": 358,
+        "bolt.paint": 1013,
+        "timer.build": 12,
+        "milestone.20.build": 1,
+        "milestone.30.build": 1,
+        "game.build": 2,
+        "hud.build": 2,
+        "milestone.60.build": 1,
+        "background.paint": 1
+      },
+      "tapToStateP50Ms": 0.055,
+      "tapToStateP95Ms": 0.126,
+      "tapToPostFrameP50Ms": 8.232,
+      "tapToPostFrameP95Ms": 11.591,
+      "acceptedTapSamples": 126,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "match-5-minimal-c1",
+      "soundsEnabled": true,
+      "hapticsEnabled": true,
+      "harnessLookupP95Ms": 1.381,
+      "frames": 1033,
+      "matches": 60,
+      "mistakes": 3,
+      "attemptedPairs": 60,
+      "uiP50Ms": 0.739,
+      "uiP95Ms": 4.157,
+      "uiP99Ms": 7.222,
+      "rasterP50Ms": 5.553,
+      "rasterP95Ms": 7.892,
+      "rasterP99Ms": 13.598,
+      "over8_33ms": 39,
+      "over16_67ms": 5,
+      "hotspots": {
+        "combo.build": 86,
+        "board.build": 150,
+        "card.build": 346,
+        "surface.paint": 230,
+        "glyph.paint": 230,
+        "card.paint": 418,
+        "connection.paint": 32,
+        "timer.build": 12,
+        "milestone.20.build": 1,
+        "milestone.30.build": 1,
+        "game.build": 2,
+        "hud.build": 2,
+        "milestone.60.build": 1,
+        "background.paint": 1
+      },
+      "tapToStateP50Ms": 0.175,
+      "tapToStateP95Ms": 0.47,
+      "tapToPostFrameP50Ms": 13.177,
+      "tapToPostFrameP95Ms": 27.075,
+      "acceptedTapSamples": 126,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "idle-match-c1",
+      "soundsEnabled": true,
+      "hapticsEnabled": true,
+      "harnessLookupP95Ms": 0.0,
+      "frames": 5,
+      "matches": 0,
+      "mistakes": 0,
+      "attemptedPairs": null,
+      "uiP50Ms": 5.33,
+      "uiP95Ms": 8.004,
+      "uiP99Ms": 8.004,
+      "rasterP50Ms": 6.623,
+      "rasterP95Ms": 7.321,
+      "rasterP99Ms": 7.321,
+      "over8_33ms": 0,
+      "over16_67ms": 0,
+      "hotspots": {
+        "timer.build": 5
+      },
+      "tapToStateP50Ms": 0.0,
+      "tapToStateP95Ms": 0.0,
+      "tapToPostFrameP50Ms": 0.0,
+      "tapToPostFrameP95Ms": 0.0,
+      "acceptedTapSamples": 0,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "correct-line-c1",
+      "soundsEnabled": true,
+      "hapticsEnabled": true,
+      "harnessLookupP95Ms": 1.7,
+      "frames": 77,
+      "matches": 1,
+      "mistakes": 0,
+      "attemptedPairs": null,
+      "uiP50Ms": 1.106,
+      "uiP95Ms": 2.328,
+      "uiP99Ms": 8.57,
+      "rasterP50Ms": 5.123,
+      "rasterP95Ms": 8.077,
+      "rasterP99Ms": 20.98,
+      "over8_33ms": 4,
+      "over16_67ms": 1,
+      "hotspots": {
+        "combo.build": 2,
+        "board.build": 2,
+        "card.build": 2,
+        "surface.paint": 2,
+        "glyph.paint": 2,
+        "card.paint": 34,
+        "connection.paint": 5,
+        "timer.build": 1
+      },
+      "tapToStateP50Ms": 0.436,
+      "tapToStateP95Ms": 0.436,
+      "tapToPostFrameP50Ms": 27.994,
+      "tapToPostFrameP95Ms": 27.994,
+      "acceptedTapSamples": 2,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "combo-lightning-c1",
+      "soundsEnabled": true,
+      "hapticsEnabled": true,
+      "harnessLookupP95Ms": 1.583,
+      "frames": 82,
+      "matches": 2,
+      "mistakes": 0,
+      "attemptedPairs": null,
+      "uiP50Ms": 1.074,
+      "uiP95Ms": 2.618,
+      "uiP99Ms": 14.251,
+      "rasterP50Ms": 5.926,
+      "rasterP95Ms": 9.359,
+      "rasterP99Ms": 14.75,
+      "over8_33ms": 8,
+      "over16_67ms": 0,
+      "hotspots": {
+        "combo.build": 2,
+        "board.build": 3,
+        "card.build": 10,
+        "surface.paint": 6,
+        "glyph.paint": 6,
+        "card.paint": 40,
+        "bolt.paint": 75,
+        "connection.paint": 6,
+        "timer.build": 1
+      },
+      "tapToStateP50Ms": 0.461,
+      "tapToStateP95Ms": 0.461,
+      "tapToPostFrameP50Ms": 26.222,
+      "tapToPostFrameP95Ms": 26.222,
+      "acceptedTapSamples": 2,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "batch-refill-c1",
+      "soundsEnabled": true,
+      "hapticsEnabled": true,
+      "harnessLookupP95Ms": 1.001,
+      "frames": 94,
+      "matches": 4,
+      "mistakes": 0,
+      "attemptedPairs": null,
+      "uiP50Ms": 0.972,
+      "uiP95Ms": 2.188,
+      "uiP99Ms": 6.665,
+      "rasterP50Ms": 4.591,
+      "rasterP95Ms": 9.171,
+      "rasterP99Ms": 18.325,
+      "over8_33ms": 5,
+      "over16_67ms": 2,
+      "hotspots": {
+        "combo.build": 3,
+        "board.build": 5,
+        "card.build": 12,
+        "surface.paint": 8,
+        "glyph.paint": 8,
+        "card.paint": 74,
+        "bolt.paint": 75,
+        "connection.paint": 12,
+        "timer.build": 1
+      },
+      "tapToStateP50Ms": 0.143,
+      "tapToStateP95Ms": 0.321,
+      "tapToPostFrameP50Ms": 16.331,
+      "tapToPostFrameP95Ms": 17.871,
+      "acceptedTapSamples": 4,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "milestone-20-c1",
+      "soundsEnabled": true,
+      "hapticsEnabled": true,
+      "harnessLookupP95Ms": 0.964,
+      "frames": 83,
+      "matches": 20,
+      "mistakes": 0,
+      "attemptedPairs": null,
+      "uiP50Ms": 0.854,
+      "uiP95Ms": 2.069,
+      "uiP99Ms": 12.507,
+      "rasterP50Ms": 5.818,
+      "rasterP95Ms": 8.629,
+      "rasterP99Ms": 17.884,
+      "over8_33ms": 6,
+      "over16_67ms": 1,
+      "hotspots": {
+        "combo.build": 2,
+        "board.build": 3,
+        "card.build": 12,
+        "milestone.20.build": 1,
+        "surface.paint": 6,
+        "glyph.paint": 6,
+        "card.paint": 40,
+        "bolt.paint": 76,
+        "connection.paint": 5,
+        "timer.build": 1
+      },
+      "tapToStateP50Ms": 0.332,
+      "tapToStateP95Ms": 0.332,
+      "tapToPostFrameP50Ms": 27.343,
+      "tapToPostFrameP95Ms": 27.343,
+      "acceptedTapSamples": 2,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    }
+  ],
+  "screenshots": [
+    "batch-refill-c1",
+    "combo-lightning-c1",
+    "correct-line-c1",
+    "idle-match-c1",
+    "match-5-calm-c1",
+    "match-5-full-c1",
+    "match-5-full-repeat-c1",
+    "match-5-minimal-c1",
+    "milestone-20-c1",
+    "sound-off-full-c1"
+  ],
+  "rasterBudgetAt120HzMs": 8.333,
+  "matchCadenceMs": 170,
+  "matchTarget": 60,
+  "learnerDatabaseUsed": false,
+  "errorsPerMainScenario": 3,
+  "freshMemoryJournalPerScenario": true,
+  "kind": "isolated production TrainingGameScreen callback probe with synthetic MemoryStore journal; no learner writes or input injection; warm match after 1 s, scroll/search after 3.6 s, reward measured from entry"
+}

@@ -1,0 +1,195 @@
+@daily|Договориться об условиях жилья
+tenancy|аренда жилья по договору|u
+deposit|залог|n
+utility bill|счёт за коммунальные услуги|n
+notice period|срок уведомления|n
+renovation|ремонт с обновлением|n
+wear and tear|естественный износ|u
+negotiate the rent|обсудить размер аренды|v
+renew the lease|продлить договор аренды|v
+inspect the property|осмотреть жильё|v
+keep the noise down|снизить уровень шума|pv
+spacious|просторный|a|The flat is spacious.|Квартира просторная.
+the heating is faulty|отопление неисправно|p
+@daily|Управлять нагрузкой
+routine|привычный распорядок|n
+workload|рабочая нагрузка|n
+distraction|отвлекающий фактор|n
+flexibility|гибкость|u
+strike a balance|найти баланс|v
+set boundaries|установить границы|v
+make room for change|оставить место для изменений|v
+wind down|расслабиться после дел|pv
+put things in perspective|оценить вещи в общем контексте|v
+manageable|посильный|a|The workload is manageable.|Рабочая нагрузка посильная.
+overwhelmed|перегруженный делами|a|I feel overwhelmed by these tasks.|Эти задачи меня перегружают.
+one thing at a time|по одному делу за раз|p
+@people|Выразить чувства точнее
+frustration|чувство досады|u
+relief|облегчение|u
+resentment|затаённая обида|u
+empathy|сопереживание|u
+acknowledge someone's feelings|признать чьи-то чувства|v
+express concern|выразить беспокойство|v
+build trust|укреплять доверие|v
+open up to a friend|открыться другу|pv
+considerate|заботливый к другим|a|That was considerate of you.|Вы проявили заботу о других.
+reassuring|успокаивающий|a|Her reply was reassuring.|Её ответ успокоил меня.
+I can relate to that|мне это знакомо по своему опыту|p
+I appreciate your honesty|я ценю вашу честность|p
+@people|Трудный разговор
+assumption|предположение без проверки|n
+intention|намерение|n
+compromise|компромисс|n
+clarification|уточнение|n
+address a concern|рассмотреть повод для тревоги|v
+raise a sensitive topic|поднять деликатную тему|v
+resolve a conflict|разрешить конфликт|v
+clear up a misunderstanding|устранить недопонимание|pv
+defensive|занимающий оборонительную позицию|a|He sounded defensive.|Он говорил так, будто защищался.
+straightforward|прямой и понятный|a|Her explanation was straightforward.|Её объяснение было прямым и понятным.
+let's find common ground|давайте найдём общее|p
+that's not how I see it|я вижу это иначе|p
+@shopping|Защитить права покупателя
+defective item|бракованный товар|n
+warranty claim|обращение по гарантии|n
+proof of purchase|подтверждение покупки|u
+return policy|правила возврата|n
+consumer rights|права потребителей|l
+replacement|замена товара|n
+request compensation|попросить компенсацию|v
+dispute a charge|оспорить списание|v
+file a complaint|подать жалобу|v
+follow up on a request|уточнить судьбу обращения|pv
+eligible|имеющий право|a|You are eligible for a refund.|Вы имеете право на возврат денег.
+I'd like this resolved|я хочу, чтобы это решили|p
+@shopping|Оценить финансовый выбор
+interest rate|процентная ставка|n
+monthly instalment|ежемесячный взнос|n
+transaction fee|комиссия за операцию|n
+exchange rate|обменный курс|n
+value for money|соотношение цены и качества|u
+hidden cost|скрытый расход|n
+weigh up the costs|взвесить расходы|pv
+stick to a budget|придерживаться бюджета|v
+pay off a debt|погасить долг|pv
+shop around|сравнить предложения магазинов|pv
+affordable|доступный по цене|a|We need an affordable option.|Нам нужен доступный по цене вариант.
+the figures don't add up|цифры не сходятся|p
+@city|Обсудить городские услуги
+infrastructure|инфраструктура|u
+congestion|транспортная перегруженность|u
+commute|путь на работу|n
+pedestrian zone|пешеходная зона|n
+accessibility|доступность для разных людей|u
+service disruption|перебой в работе службы|n
+report a disruption|сообщить о перебое|v
+take an alternative route|поехать другим маршрутом|v
+reduce congestion|снизить перегруженность дорог|v
+commute by train|ездить на работу поездом|v
+well connected|с хорошим транспортным сообщением|a|This area is well connected.|В этом районе хорошее транспортное сообщение.
+the service is suspended|движение временно прекращено|p
+@trips|Перенести и уточнить поездку
+itinerary|план поездки|n
+stopover|остановка между рейсами|n
+travel disruption|сбой в поездке|n
+booking reference|код бронирования|n
+complaint form|форма жалобы|n
+excess baggage|багаж сверх нормы|u
+amend a reservation|изменить бронирование|v
+claim compensation|потребовать компенсацию|v
+be stranded|оказаться без возможности уехать|v|We were stranded at the airport.|Мы застряли в аэропорту без возможности уехать.
+sort out the booking|разобраться с бронированием|pv
+subject to availability|при наличии свободных мест|p
+could you confirm this in writing?|можете подтвердить это письменно?|p
+@work|Проверить аргументацию
+methodology|методология|n
+finding|результат исследования|n
+limitation|ограничение исследования|n
+interpretation|интерпретация|n
+reference|библиографическая ссылка|n
+assess the evidence|оценить данные|v
+draw a conclusion|сделать вывод|v
+support a claim|подкрепить утверждение|v
+question an assumption|поставить предположение под сомнение|v
+relevant|относящийся к делу|a|This source is relevant.|Этот источник относится к делу.
+consistent|непротиворечивый|a|The results are consistent.|Результаты непротиворечивы.
+the evidence suggests|данные указывают|p|The evidence suggests a different cause.|Данные указывают на другую причину.
+@work|Согласовать проект
+stakeholder|заинтересованная сторона|n
+deliverable|результат, подлежащий сдаче|n
+milestone|ключевой этап проекта|n
+scope|границы проекта|n
+constraint|ограничивающее условие|n
+dependency|зависимость между задачами|n
+allocate resources|распределить ресурсы|v
+delegate a task|поручить задачу другому|v
+meet a deadline|уложиться в срок|v
+flag a risk|обратить внимание на риск|v
+keep everyone in the loop|держать всех в курсе|p
+we're on track|мы идём по плану|p
+@tech|Обсудить разработку
+source code|исходный код|u
+deployment|развёртывание программы|n
+repository|хранилище кода|n
+version control|контроль версий|u
+data breach|утечка данных|n
+bug report|сообщение об ошибке|n
+debug a program|отладить программу|v
+reproduce an issue|воспроизвести проблему|v
+roll back an update|откатить обновление|pv
+implement a feature|реализовать функцию|v
+compatible|совместимый|a|These versions are compatible.|Эти версии совместимы.
+the issue is reproducible|проблема воспроизводится|p
+@nature|Обсудить экологические меры
+biodiversity|биоразнообразие|u
+habitat|среда обитания|n
+emission|выброс загрязняющих веществ|n
+renewable energy|возобновляемая энергия|u
+carbon footprint|углеродный след|n
+conservation|охрана природы|u
+reduce emissions|сократить выбросы|v
+preserve a habitat|сохранить среду обитания|v
+raise awareness|повысить осведомлённость|v
+phase out plastic|постепенно отказаться от пластика|pv
+sustainable|устойчивый экологически|a|We need sustainable transport.|Нам нужен экологически устойчивый транспорт.
+environmentally friendly|экологичный|a|This packaging is environmentally friendly.|Эта упаковка экологичная.
+@health|Точно описать ощущения
+discomfort|неприятное ощущение|u
+fatigue|сильная утомляемость|u
+stiffness|скованность движений|u
+swelling|отёк|u
+medical history|медицинский анамнез|n
+side effect|побочное действие|n
+describe the severity|описать степень выраженности|v
+mention an existing condition|упомянуть уже имеющееся заболевание|v
+monitor a symptom|следить за симптомом|v
+seek a second opinion|получить ещё одно мнение врача|v
+persistent|постоянно сохраняющийся|a|I have a persistent cough.|У меня постоянный кашель.
+it affects my daily routine|это влияет на мой распорядок|p
+@culture|Обсудить произведение
+narrative|повествование|n
+portrayal|изображение в искусстве|n
+soundtrack|музыка к фильму|n
+adaptation|экранизация или переработка|n
+genre|жанр|n
+premiere|премьера|n
+interpret a scene|истолковать сцену|v
+capture the atmosphere|передать атмосферу|v
+relate to a character|узнать себя в персонаже|v
+thought-provoking|заставляющий задуматься|a|The film was thought-provoking.|Фильм заставил задуматься.
+understated|сдержанный по выразительности|a|Her performance was understated.|Она сыграла сдержанно.
+it left a lasting impression|это надолго запомнилось|p
+@thought|Уточнить позицию
+perspective|точка зрения|n
+implication|следствие или скрытый смысл|n
+counterargument|контраргумент|n
+trade-off|компромисс между выгодами|n
+distinguish two ideas|различить две идеи|v
+challenge a claim|оспорить утверждение|v
+take something into account|принять что-то во внимание|v
+nevertheless|тем не менее|d|It was difficult; nevertheless, we tried.|Это было трудно; тем не менее мы попробовали.
+whereas|тогда как|p|I prefer tea, whereas she likes coffee.|Я предпочитаю чай, тогда как она любит кофе.
+to some extent|в некоторой степени|p
+that doesn't necessarily follow|это не обязательно из этого следует|p
+let me put it another way|позвольте сказать иначе|p

@@ -1,0 +1,19 @@
+--------- beginning of main
+10-01 21:31:53.259 31345 31345 I flutter : WJ_PROBE_METRIC:{"scenario":"match-5-calm-c1","frames":1079,"matches":60,"elapsedMs":11309,"uiP50Ms":1.596,"uiP95Ms":5.87,"uiP99Ms":9.852,"rasterP50Ms":3.652,"rasterP95Ms":6.566,"rasterP99Ms":7.752,"over16_67ms":1,"over8_33ms":22}
+10-01 21:31:54.262 31345 31345 I flutter : WJ_PROBE_SCREEN:match-5-minimal-c1
+10-01 21:32:05.549 31345 31345 I flutter : WJ_PROBE_METRIC:{"scenario":"match-5-minimal-c1","frames":174,"matches":60,"elapsedMs":11286,"uiP50Ms":4.388,"uiP95Ms":5.832,"uiP99Ms":6.704,"rasterP50Ms":2.58,"rasterP95Ms":4.354,"rasterP99Ms":5.004,"over16_67ms":0,"over8_33ms":1}
+10-01 21:32:06.551 31345 31345 I flutter : WJ_PROBE_SCREEN:match-4-full-c1
+10-01 21:32:17.830 31345 31345 I flutter : WJ_PROBE_METRIC:{"scenario":"match-4-full-c1","frames":1163,"matches":60,"elapsedMs":11277,"uiP50Ms":1.225,"uiP95Ms":3.683,"uiP99Ms":5.233,"rasterP50Ms":3.658,"rasterP95Ms":6.246,"rasterP99Ms":7.186,"over16_67ms":1,"over8_33ms":7}
+10-01 21:32:18.832 31345 31345 I flutter : WJ_PROBE_SCREEN:match-5-calm-a1
+10-01 21:32:30.109 31345 31345 I flutter : WJ_PROBE_METRIC:{"scenario":"match-5-calm-a1","frames":1126,"matches":60,"elapsedMs":11275,"uiP50Ms":1.228,"uiP95Ms":4.403,"uiP99Ms":6.193,"rasterP50Ms":3.267,"rasterP95Ms":6.042,"rasterP99Ms":7.084,"over16_67ms":1,"over8_33ms":2}
+10-01 21:32:30.709 31345 31345 I flutter : WJ_PROBE_SCREEN:scroll-packs
+10-01 21:32:33.711 31345 31345 I flutter : WJ_PROBE_SCROLL_EXTENT:262.27272727272725
+10-01 21:32:37.830 31345 31345 I flutter : WJ_PROBE_METRIC:{"scenario":"scroll-packs","frames":433,"valid":true,"elapsedMs":4118,"uiP95Ms":0.839,"rasterP95Ms":3.514,"over8_33ms":0,"over16_67ms":0}
+10-01 21:32:38.432 31345 31345 I flutter : WJ_PROBE_SCREEN:search-categories
+10-01 21:32:43.751 31345 31345 I flutter : WJ_PROBE_METRIC:{"scenario":"search-categories","frames":10,"valid":true,"elapsedMs":2316,"uiP95Ms":11.156,"rasterP95Ms":7.126,"over8_33ms":2,"over16_67ms":0}
+10-01 21:32:44.353 31345 31345 I flutter : WJ_PROBE_SCREEN:reward-preparation
+10-01 21:32:47.368 31345 31345 I flutter : WJ_PROBE_SCREEN:reward
+10-01 21:32:49.858 31345 31345 I flutter : WJ_PROBE_METRIC:{"scenario":"reward","frames":87,"valid":true,"elapsedMs":2503,"uiP95Ms":1.245,"rasterP95Ms":7.174,"over8_33ms":3,"over16_67ms":0}
+10-01 21:32:49.916 31345 31345 I flutter : WJ_PROBE_VOICES:{"count":28,"examples":[{"id":"en-AU-language","label":"en-AU · en-AU-language"},{"id":"en-GB-language","label":"en-GB · en-GB-language"}]}
+10-01 21:32:49.916 31345 31345 I flutter : WJ_PROBE_DONE:[{"scenario":"match-4-calm-a1","frames":1134,"matches":60,"elapsedMs":11273,"uiP50Ms":1.214,"uiP95Ms":4.264,"uiP99Ms":6.042,"rasterP50Ms":3.24,"rasterP95Ms":5.649,"rasterP99Ms":6.66,"over16_67ms":0,"over8_33ms":1},{"scenario":"match-5-full-c1","frames":1113,"matches":60,"elapsedMs":11337,"uiP50Ms":1.832,"uiP95Ms":5.896,"uiP99Ms":9.235,"rasterP50Ms":4.67,"rasterP95Ms":8.454,"rasterP99Ms":10.456,"over16_67ms":2,"over8_33ms":77},{"scenario":"match-5-calm-c1","frames":1079,"matches":60,"elapsedMs":11309,"uiP50Ms":1.596,"uiP95Ms":5.87,"uiP99Ms":9.852,"rasterP50Ms":3.652,"rasterP95Ms":6.566,"rasterP99Ms":7.752,"over16_67ms":1,"over8_33ms":22},{"scenario":"match-5-minimal-c1","frames":174,"matches":60,"elapsedMs":11286,"uiP50Ms":4.388,"uiP95Ms":5.832,"uiP99Ms":6.704,"rasterP50Ms":2.58,"rasterP95Ms":4.354,"rasterP99Ms":5.004,"over16_67ms":0,"over8_33ms":1},{"scenario":"match-4-full-c1","frames":1163,"matches":60,"elapsedMs":11277,"uiP50Ms":1.225,"uiP95Ms":3.683,"uiP99Ms":5.233,"rasterP50Ms":3.658,"rast
+10-01 21:32:50.517 31345 31345 I flutter : WJ_PROBE_SCREEN:done

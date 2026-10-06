@@ -61,6 +61,7 @@ void drain(MatchingEngine g) {
       g.settlePair(c.pairId);
     }
   }
+  engine.requestFinalFallback(g);
   for (final t in g.transitions) {
     g.completeTransition(t.token);
   }
@@ -144,7 +145,7 @@ void main() {
       expect(g.errorCount, 0);
     },
   );
-  test('Timeout in a pending batch allows atomic commit but no new scoring or batches', () {
+  test('Timeout cancels a pending rotation without new scoring or cards', () {
     final g = timed();
     solve(g);
     solve(g);
@@ -152,9 +153,10 @@ void main() {
       g.settlePair(c.pairId);
     }
     final t = g.transitions.single;
+    final before = engine.board(g);
     g.expireTimeLimit();
     g.completeTransition(t.token);
-    final before = engine.board(g);
+    expect(engine.board(g), before);
     for (var i = 0; i < 10; i++) {
       g.completeTransition(t.token);
       for (final c in g.cards) {
@@ -237,31 +239,47 @@ void main() {
     },
   );
   testWidgets(
-    'Timeout during fade completes its batch without orphan cards or late corruption',
+    'Timeout freezes staged refill and rejects stale widget callbacks',
     (tester) async {
       var now = Duration.zero;
       final g = timed();
       await show(tester, g, SessionClock(limitSeconds: 120, now: () => now));
+      final stale = <VoidCallback>[];
       for (var i = 0; i < 2; i++) {
         final c = engine.playable(g).first;
         final other = engine.mate(g, c);
+        for (final card in [c, other]) {
+          stale.add(
+            tester
+                .widget<TrainingWordCard>(find.byKey(ValueKey(card.id)))
+                .onPressed,
+          );
+        }
         await tester.tap(find.byKey(ValueKey(c.id)));
         await tester.pump();
         await tester.tap(find.byKey(ValueKey(other.id)));
         await tester.pump();
       }
       await tester.pump();
-      await tester.pump(const Duration(milliseconds: 151));
-      await tester.pump();
-      final token = g.transitions.single.token;
+      final flow = g.matchFlow!;
+      expect(flow.hasPendingTimer, isTrue);
       now = const Duration(seconds: 120);
       await tester.pump(const Duration(milliseconds: 101));
       expect(g.state.timedOut, isTrue);
+      expect(flow.stopped, isTrue);
+      expect(flow.hasPendingTimer, isFalse);
+      final stopped = flow.states, cards = g.cards;
       await tester.pumpAndSettle();
       expect(g.transitions, isEmpty);
       expect(g.debugValidate(), isTrue);
       expect(find.text('2 / 60'), findsOneWidget);
-      g.completeTransition(token);
+      for (final callback in stale) {
+        callback();
+      }
+      await tester.pump(const Duration(seconds: 20));
+      flow.synchronize();
+      expect(flow.states, stopped);
+      expect(g.cards, cards);
       expect(g.matchedCount, 2);
       expect(tester.takeException(), isNull);
     },

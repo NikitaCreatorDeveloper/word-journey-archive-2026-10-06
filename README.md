@@ -1,17 +1,37 @@
-# word_journey
+# Word Journey
 
-A new Flutter project.
+Personal offline vocabulary trainer: Categories, Review, Progress.
+Travel/maps/routes have been retired. Match retains one paired-card engine.
+See docs/personal-trainer-plan.md and docs/personal-trainer-report.md.
+Airy upgrade: 1520 unique concepts, 91 packs of 20 concepts, 12 categories.
+The 600-pack target remains incomplete (509 packs missing). See
+docs/airy-upgrade-report.md, docs/catalog-coverage.md and docs/content-editorial-audit.md.
+Application ID: com.wordjourney.app. No publishing or commit before acceptance.
 
-## Getting Started
+Premium Midnight Indigo redesign: Categories, Review, Progress and Match.
+See docs/indigo-redesign-report.md for validation, POCO frame timings, data
+preservation and remaining manual checks. Review APK:
+checkpoints/word-journey-indigo-review.apk.
 
-This project is a starting point for a Flutter application.
+Indigo final visual polish: docs/indigo-final-polish-report.md.
+Latest review APK: checkpoints/word-journey-indigo-polish-review.apk.
+Installed on POCO without clearing learner data; 237 tests passed.
+Full-screen Match raster p95 9.48–9.70 ms; the 6–7 ms target is not yet achieved.
 
-A few resources to get you started if this is your first Flutter project:
+Match performance fix: docs/match-performance-report.md.
+Latest review APK: checkpoints/word-journey-match-performance-review.apk.
+242 Flutter tests + 6 native queue regressions passed. Full C1/5 pairs at 120 Hz,
+sounds/haptics enabled: UI p95 3.897–4.383 ms, raster p95 7.800–7.928 ms.
+Data/settings preserved; ordinary debug APK restored on POCO.
+Preferred 6–7 ms raster target and consistent <8 ms in all short windows remain unachieved.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Match Lottie feedback spike: docs/lottie-assets.md and docs/lottie-spike-report.md.
+Previous Lottie spike APK: checkpoints/word-journey-lottie-review.apk.
+Original correct/combo/milestone/victory vectors, preload, bounded feedback controller,
+Full/Calm/Minimal and local error fallback. No commit or publication before review.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+FAST MATCH + PREMIUM PROGRAMMATIC LOTTIE: docs/fast-match-report.md.
+Latest review APK: checkpoints/word-journey-fast-match-review.apk.
+Removed connection runtime; independent100ms acknowledgements; 30FPS combo/victory.
+Full C1/5 pairs/120Hz: UI p95 2.593–4.172ms; Raster p95 4.525–5.195ms.
+260 Flutter +6 native tests passed; data preserved; no commit/publication.

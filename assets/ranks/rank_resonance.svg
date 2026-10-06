@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<defs>
+<linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#CCADFF"/><stop offset="1" stop-color="#6645B5"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B9A5FF"/><stop offset="1" stop-color="#7661E5"/></linearGradient>
+<linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6369D2"/><stop offset="1" stop-color="#303D80"/></linearGradient>
+<linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C6B8FF"/><stop offset="1" stop-color="#806147"/></linearGradient>
+<linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C6B8FF"/><stop offset="1" stop-color="#806147"/></linearGradient>
+<linearGradient id="g6" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C6B8FF"/><stop offset="1" stop-color="#806147"/></linearGradient>
+<linearGradient id="g7" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C6B8FF"/><stop offset="1" stop-color="#806147"/></linearGradient>
+<linearGradient id="g8" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C6B8FF"/><stop offset="1" stop-color="#806147"/></linearGradient>
+<linearGradient id="g9" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C6B8FF"/><stop offset="1" stop-color="#806147"/></linearGradient>
+<linearGradient id="g10" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C6B8FF"/><stop offset="1" stop-color="#806147"/></linearGradient>
+<linearGradient id="g11" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C6B8FF"/><stop offset="1" stop-color="#806147"/></linearGradient>
+<linearGradient id="g12" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C6B8FF"/><stop offset="1" stop-color="#806147"/></linearGradient>
+<linearGradient id="g13" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C6B8FF"/><stop offset="1" stop-color="#806147"/></linearGradient>
+<linearGradient id="g14" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C6B8FF"/><stop offset="1" stop-color="#8D6BA1"/></linearGradient>
+<linearGradient id="g27" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#333B6D"/><stop offset="1" stop-color="#111B3A"/></linearGradient>
+</defs>
+<path d="M 180.000 93.000 C 180.000 137.183 144.183 173.000 100.000 173.000 C 55.817 173.000 20.000 137.183 20.000 93.000 C 20.000 48.817 55.817 13.000 100.000 13.000 C 144.183 13.000 180.000 48.817 180.000 93.000 Z " fill="#AE85FF" fill-opacity="0.0706" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 64.000 128.000 L 85.000 128.000 L 91.000 188.000 L 69.000 173.000 Z " fill="url(#g1)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 85.000 128.000 L 106.000 128.000 L 112.000 190.000 L 91.000 188.000 Z " fill="url(#g2)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 106.000 128.000 L 127.000 128.000 L 131.000 173.000 L 112.000 190.000 Z " fill="url(#g3)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 43.000 143.000 Q 17.000 135.000 31.000 116.000 Q 44.000 126.000 43.000 143.000 Z " fill="url(#g4)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 40.000 128.000 Q 14.000 120.000 28.000 101.000 Q 41.000 111.000 40.000 128.000 Z " fill="url(#g5)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 37.000 113.000 Q 11.000 105.000 25.000 86.000 Q 38.000 96.000 37.000 113.000 Z " fill="url(#g6)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 34.000 98.000 Q 8.000 90.000 22.000 71.000 Q 35.000 81.000 34.000 98.000 Z " fill="url(#g7)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 31.000 83.000 Q 5.000 75.000 19.000 56.000 Q 32.000 66.000 31.000 83.000 Z " fill="url(#g8)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 157.000 143.000 Q 183.000 135.000 169.000 116.000 Q 156.000 126.000 157.000 143.000 Z " fill="url(#g9)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 160.000 128.000 Q 186.000 120.000 172.000 101.000 Q 159.000 111.000 160.000 128.000 Z " fill="url(#g10)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 163.000 113.000 Q 189.000 105.000 175.000 86.000 Q 162.000 96.000 163.000 113.000 Z " fill="url(#g11)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 166.000 98.000 Q 192.000 90.000 178.000 71.000 Q 165.000 81.000 166.000 98.000 Z " fill="url(#g12)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 169.000 83.000 Q 195.000 75.000 181.000 56.000 Q 168.000 66.000 169.000 83.000 Z " fill="url(#g13)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 100.000 25.000 L 129.000 39.771 L 156.292 57.500 L 158.000 90.000 L 156.292 122.500 L 129.000 140.229 L 100.000 155.000 L 71.000 140.229 L 43.708 122.500 L 42.000 90.000 L 43.708 57.500 L 71.000 39.771 Z " fill="url(#g14)" stroke="#F4DEFF" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 100.000 25.000 L 129.000 39.771 L 121.500 52.761 L 100.000 41.000 Z " fill="#C6B8FF" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 129.000 39.771 L 156.292 57.500 L 142.435 65.500 L 121.500 52.761 Z " fill="#E6DCFF" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 156.292 57.500 L 158.000 90.000 L 143.000 90.000 L 142.435 65.500 Z " fill="#6155A4" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 158.000 90.000 L 156.292 122.500 L 142.435 114.500 L 143.000 90.000 Z " fill="#C6B8FF" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 156.292 122.500 L 129.000 140.229 L 121.500 127.239 L 142.435 114.500 Z " fill="#E6DCFF" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 129.000 140.229 L 100.000 155.000 L 100.000 139.000 L 121.500 127.239 Z " fill="#6155A4" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 100.000 155.000 L 71.000 140.229 L 78.500 127.239 L 100.000 139.000 Z " fill="#C6B8FF" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 71.000 140.229 L 43.708 122.500 L 57.565 114.500 L 78.500 127.239 Z " fill="#E6DCFF" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 43.708 122.500 L 42.000 90.000 L 57.000 90.000 L 57.565 114.500 Z " fill="#6155A4" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 42.000 90.000 L 43.708 57.500 L 57.565 65.500 L 57.000 90.000 Z " fill="#C6B8FF" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 43.708 57.500 L 71.000 39.771 L 78.500 52.761 L 57.565 65.500 Z " fill="#E6DCFF" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 71.000 39.771 L 100.000 25.000 L 100.000 41.000 L 78.500 52.761 Z " fill="#6155A4" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 100.000 41.000 L 121.500 52.761 L 142.435 65.500 L 143.000 90.000 L 142.435 114.500 L 121.500 127.239 L 100.000 139.000 L 78.500 127.239 L 57.565 114.500 L 57.000 90.000 L 57.565 65.500 L 78.500 52.761 Z " fill="url(#g27)" stroke="#C6B8FF" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 109.000 90.000 C 109.000 94.971 104.971 99.000 100.000 99.000 C 95.029 99.000 91.000 94.971 91.000 90.000 C 91.000 85.029 95.029 81.000 100.000 81.000 C 104.971 81.000 109.000 85.029 109.000 90.000 Z " fill="none" stroke="#ECE6FF" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 117.000 90.000 C 117.000 99.389 109.389 107.000 100.000 107.000 C 90.611 107.000 83.000 99.389 83.000 90.000 C 83.000 80.611 90.611 73.000 100.000 73.000 C 109.389 73.000 117.000 80.611 117.000 90.000 Z " fill="none" stroke="#ECE6FF" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 125.000 90.000 C 125.000 103.807 113.807 115.000 100.000 115.000 C 86.193 115.000 75.000 103.807 75.000 90.000 C 75.000 76.193 86.193 65.000 100.000 65.000 C 113.807 65.000 125.000 76.193 125.000 90.000 Z " fill="none" stroke="#ECE6FF" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 31.000 35.000 L 31.792 38.208 L 35.000 39.000 L 31.792 39.792 L 31.000 43.000 L 30.208 39.792 L 27.000 39.000 L 30.208 38.208 Z " fill="#C6B8FF" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 167.000 39.000 L 167.792 42.208 L 171.000 43.000 L 167.792 43.792 L 167.000 47.000 L 166.208 43.792 L 163.000 43.000 L 166.208 42.208 Z " fill="#C6B8FF" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 157.000 163.000 L 157.792 166.208 L 161.000 167.000 L 157.792 167.792 L 157.000 171.000 L 156.208 167.792 L 153.000 167.000 L 156.208 166.208 Z " fill="#C6B8FF" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

@@ -46,3 +46,7 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Complete binaries and caches are preserved in the archival GitHub release.
+/checkpoints/
+

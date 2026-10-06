@@ -1,0 +1,195 @@
+@daily|Решить бытовую проблему
+landlord|арендодатель|n
+rent|арендная плата|u
+heating|отопление|u
+leak|протечка|n
+maintenance|техническое обслуживание|u
+electricity|электричество|u
+report a leak|сообщить о протечке|v
+replace a bulb|заменить лампочку|v
+arrange repairs|договориться о ремонте|v
+run out of water|остаться без воды|pv
+broken|сломанный|a|The lock is broken.|Замок сломан.
+it needs fixing|это нужно починить|p
+@daily|Менять планы
+priority|приоритет|n
+commitment|обязательство|n
+reminder|напоминание|n
+cancel a plan|отменить план|v
+postpone a visit|отложить визит|v
+make time for it|найти для этого время|v
+stick to a plan|придерживаться плана|v
+catch up on sleep|выспаться после недосыпа|pv
+in advance|заранее|p|Please tell me in advance.|Пожалуйста, сообщите мне заранее.
+at the last minute|в последний момент|p|She cancelled at the last minute.|Она отменила всё в последний момент.
+it depends|это зависит от обстоятельств|p
+something came up|возникли непредвиденные дела|p
+@people|Рассказывать о своём опыте
+experience|жизненный опыт|u
+memory|воспоминание|n
+background|происхождение и прошлый опыт|n
+describe an event|описать событие|v
+share an experience|поделиться опытом|v
+mention a detail|упомянуть деталь|v
+get to know someone|узнать кого-то поближе|pv
+keep a promise|сдержать обещание|v
+confident|уверенный в себе|a|She sounds confident.|Она говорит уверенно.
+embarrassed|смущённый|a|I felt embarrassed.|Я чувствовал смущение.
+as far as I remember|насколько я помню|p
+that reminds me|это напомнило мне|p
+@people|Справляться с разногласиями
+misunderstanding|недопонимание|n
+argument|ссора|n
+apology|извинение|n
+respect|уважение|u
+explain my feelings|объяснить свои чувства|v
+apologise for being late|извиниться за опоздание|v
+calm down|успокоиться|pv
+make up after an argument|помириться после ссоры|pv
+patient|терпеливый|a|Please be patient with me.|Пожалуйста, будьте терпеливы со мной.
+honest|честный|a|I want an honest answer.|Я хочу честный ответ.
+I didn't mean that|я не это имел в виду|p
+let me explain|позвольте объяснить|p
+@shopping|Вернуть покупку
+purchase|покупка|n
+exchange|обмен товара|n
+fault|дефект|n
+guarantee|гарантия|n
+return an item|вернуть товар|v
+ask for a refund|попросить возврат денег|v
+keep the receipt|сохранить чек|v
+try a different size|попробовать другой размер|v
+damaged|повреждённый|a|The box arrived damaged.|Коробка пришла повреждённой.
+missing|отсутствующий|a|One button is missing.|Одной пуговицы не хватает.
+it doesn't fit|это не подходит по размеру|p
+I'd like to exchange it|я хочу это обменять|p
+@shopping|Планировать бюджет
+budget|бюджет|n
+expense|расход|n
+income|доход|u
+savings|сбережения|l
+debt|долг|n
+payment|платёж|n
+afford it|позволить себе это|v
+cut costs|сократить расходы|v
+set money aside|отложить деньги|pv
+pay in instalments|платить частями|v
+worth it|стоит своих затрат|p|The course was worth it.|Курс стоил своих затрат.
+within my budget|в пределах моего бюджета|p|This option is within my budget.|Этот вариант в пределах моего бюджета.
+@city|Объяснить дорогу и задержку
+route|маршрут|n
+intersection|перекрёсток|n
+detour|объезд|n
+rush hour|час пик|u
+public transport|общественный транспорт|u
+destination|пункт назначения|n
+miss the train|опоздать на поезд|v
+avoid the traffic|избежать пробок|v
+head towards the station|направиться к станции|v
+go past the bank|пройти мимо банка|v
+on the corner|на углу|p|The shop is on the corner.|Магазин на углу.
+how long does it take?|сколько времени это занимает?|p
+@trips|Проблемы в пути
+accommodation|жильё для поездки|u
+boarding pass|посадочный талон|n
+connection|стыковочный рейс|n
+cancellation|отмена бронирования|n
+insurance|страхование|u
+lost property|бюро находок|u|Ask at lost property.|Спросите в бюро находок.
+miss a connection|пропустить стыковку|v
+claim my luggage|получить багаж|v
+request a different room|попросить другой номер|v
+confirm a booking|подтвердить бронь|v
+my flight was cancelled|мой рейс отменили|p
+is there an alternative?|есть другой вариант?|p
+@work|Объяснить материал
+assignment|учебное задание|n
+research|исследовательская работа|u
+source|источник информации|n
+summary|краткое изложение|n
+feedback|обратная связь|u
+deadline|крайний срок|n
+hand in an assignment|сдать задание|pv
+revise for an exam|готовиться к экзамену|v
+sum up the main points|подвести итог основных мыслей|pv
+refer to a source|сослаться на источник|v
+make progress|делать успехи|v
+could you give an example?|можно привести пример?|p
+@work|Вести небольшой проект
+project|проект|n
+proposal|предложение по проекту|n
+requirement|требование|n
+responsibility|обязанность|n
+progress|ход работы|u
+teamwork|командная работа|u
+deal with a problem|разобраться с проблемой|pv
+set a deadline|назначить крайний срок|v
+keep track of tasks|следить за задачами|v
+put off a meeting|отложить встречу|pv
+reliable|надёжный|a|He is a reliable colleague.|Он надёжный коллега.
+what's the next step?|какой следующий шаг?|p
+@tech|Найти и исправить сбой
+update|обновление программы|n
+backup|резервная копия|n
+attachment|вложение в письме|n
+connection error|ошибка подключения|n
+storage|место для хранения данных|u
+settings|настройки|l
+restart the device|перезагрузить устройство|v
+reset a password|сбросить пароль|v
+install an update|установить обновление|v
+back up my files|создать резервную копию файлов|pv
+it keeps crashing|оно постоянно аварийно закрывается|p
+have you tried restarting?|вы пробовали перезагрузить?|p
+@nature|Описать окружающую среду
+environment|окружающая среда|n
+pollution|загрязнение|u
+wildlife|дикая природа|u
+landscape|пейзаж|n
+coast|побережье|n
+drought|засуха|n
+recycle paper|перерабатывать бумагу|v
+protect wildlife|защищать дикую природу|v
+pick up litter|собрать мусор с земли|pv
+changeable|переменчивый|a|The weather is changeable.|Погода переменчива.
+humid|влажный, о воздухе|a|It is humid here.|Здесь влажный воздух.
+the weather is improving|погода улучшается|p
+@health|Описать самочувствие
+ache|ноющая боль|n
+injury|травма|n
+allergy|аллергия|n
+treatment|лечение|u
+recovery|восстановление здоровья|u
+prescription|рецепт на лекарство|n
+feel out of breath|чувствовать одышку|v
+describe a symptom|описать симптом|v
+recover from an illness|восстановиться после болезни|v
+avoid heavy lifting|избегать поднятия тяжестей|v
+how long have you felt this way?|как давно вы так себя чувствуете?|p
+the pain comes and goes|боль то появляется, то проходит|p
+@culture|Обсудить впечатления
+performance|выступление|n
+audience|публика|n
+exhibition|выставка|n
+plot|сюжет|n
+review|рецензия|n
+character|персонаж|n
+take part in a show|участвовать в представлении|v
+recommend a book|порекомендовать книгу|v
+be keen on music|увлекаться музыкой|v
+moving|трогательный|a|The final scene was moving.|Последняя сцена была трогательной.
+disappointing|разочаровывающий|a|The ending was disappointing.|Концовка разочаровала.
+what did you think of it?|что вы об этом думаете?|p
+@thought|Обосновать мнение
+opinion|мнение|n
+evidence|подтверждающие данные|u
+advantage|преимущество|n
+disadvantage|недостаток|n
+suggest a solution|предложить решение|v
+compare two options|сравнить два варианта|v
+make a decision|принять решение|v
+on the other hand|с другой стороны|p
+as a result|в результате|p|It rained; as a result, we stayed home.|Шёл дождь; в результате мы остались дома.
+in fact|на самом деле|p|In fact, I enjoyed it.|На самом деле мне это понравилось.
+to be honest|честно говоря|p
+what I mean is|я имею в виду следующее|p

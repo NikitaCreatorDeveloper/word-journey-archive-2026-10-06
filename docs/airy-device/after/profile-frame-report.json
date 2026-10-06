@@ -1,0 +1,215 @@
+{
+  "complete": true,
+  "deviceSerial": "2aa7666ff377",
+  "physicalRefreshBefore": [
+    "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+  ],
+  "systemFontScale": "1.0",
+  "density": "Physical density: 440",
+  "catalogAndMemoryColdMs": null,
+  "metrics": [
+    {
+      "scenario": "match-4-calm-a1",
+      "frames": 1134,
+      "matches": 60,
+      "elapsedMs": 11273,
+      "uiP50Ms": 1.214,
+      "uiP95Ms": 4.264,
+      "uiP99Ms": 6.042,
+      "rasterP50Ms": 3.24,
+      "rasterP95Ms": 5.649,
+      "rasterP99Ms": 6.66,
+      "over16_67ms": 0,
+      "over8_33ms": 1,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "match-5-full-c1",
+      "frames": 1113,
+      "matches": 60,
+      "elapsedMs": 11337,
+      "uiP50Ms": 1.832,
+      "uiP95Ms": 5.896,
+      "uiP99Ms": 9.235,
+      "rasterP50Ms": 4.67,
+      "rasterP95Ms": 8.454,
+      "rasterP99Ms": 10.456,
+      "over16_67ms": 2,
+      "over8_33ms": 77,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "match-5-calm-c1",
+      "frames": 1079,
+      "matches": 60,
+      "elapsedMs": 11309,
+      "uiP50Ms": 1.596,
+      "uiP95Ms": 5.87,
+      "uiP99Ms": 9.852,
+      "rasterP50Ms": 3.652,
+      "rasterP95Ms": 6.566,
+      "rasterP99Ms": 7.752,
+      "over16_67ms": 1,
+      "over8_33ms": 22,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "match-5-minimal-c1",
+      "frames": 174,
+      "matches": 60,
+      "elapsedMs": 11286,
+      "uiP50Ms": 4.388,
+      "uiP95Ms": 5.832,
+      "uiP99Ms": 6.704,
+      "rasterP50Ms": 2.58,
+      "rasterP95Ms": 4.354,
+      "rasterP99Ms": 5.004,
+      "over16_67ms": 0,
+      "over8_33ms": 1,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "match-4-full-c1",
+      "frames": 1163,
+      "matches": 60,
+      "elapsedMs": 11277,
+      "uiP50Ms": 1.225,
+      "uiP95Ms": 3.683,
+      "uiP99Ms": 5.233,
+      "rasterP50Ms": 3.658,
+      "rasterP95Ms": 6.246,
+      "rasterP99Ms": 7.186,
+      "over16_67ms": 1,
+      "over8_33ms": 7,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "match-5-calm-a1",
+      "frames": 1126,
+      "matches": 60,
+      "elapsedMs": 11275,
+      "uiP50Ms": 1.228,
+      "uiP95Ms": 4.403,
+      "uiP99Ms": 6.193,
+      "rasterP50Ms": 3.267,
+      "rasterP95Ms": 6.042,
+      "rasterP99Ms": 7.084,
+      "over16_67ms": 1,
+      "over8_33ms": 2,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "scroll-packs",
+      "frames": 433,
+      "valid": true,
+      "elapsedMs": 4118,
+      "uiP95Ms": 0.839,
+      "rasterP95Ms": 3.514,
+      "over8_33ms": 0,
+      "over16_67ms": 0,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "search-categories",
+      "frames": 10,
+      "valid": true,
+      "elapsedMs": 2316,
+      "uiP95Ms": 11.156,
+      "rasterP95Ms": 7.126,
+      "over8_33ms": 2,
+      "over16_67ms": 0,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "reward",
+      "frames": 87,
+      "valid": true,
+      "elapsedMs": 2503,
+      "uiP95Ms": 1.245,
+      "rasterP95Ms": 7.174,
+      "over8_33ms": 3,
+      "over16_67ms": 0,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    }
+  ],
+  "screenshots": [
+    "categories-dark",
+    "categories-light",
+    "done",
+    "match-4-calm-a1",
+    "match-4-full-c1",
+    "match-5-calm-a1",
+    "match-5-calm-c1",
+    "match-5-full-c1",
+    "match-5-minimal-c1",
+    "match-light-c1",
+    "pack-c1-dark",
+    "pack-c1-light",
+    "pack-dark",
+    "pack-light",
+    "pack-overview-dark",
+    "pack-overview-light",
+    "packs-dark",
+    "packs-light",
+    "progress-dark",
+    "progress-light",
+    "recall-dark",
+    "recall-light",
+    "result-dark",
+    "result-light",
+    "review-dark",
+    "review-light",
+    "reward",
+    "reward-preparation",
+    "scroll-packs",
+    "search-categories",
+    "settings-dark",
+    "settings-light"
+  ],
+  "kind": "isolated model-driven production board probe; no learner writes or input injection; warm match after 1 s, scroll/search after 3.6 s, reward measured from entry"
+}

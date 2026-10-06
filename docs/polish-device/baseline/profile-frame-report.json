@@ -1,0 +1,136 @@
+{
+  "complete": true,
+  "simultaneousVideoRecording": false,
+  "deviceSerial": "2aa7666ff377",
+  "physicalRefreshBefore": [
+    "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+  ],
+  "systemFontScale": "1.0",
+  "density": "Physical density: 440",
+  "catalogAndMemoryColdMs": 1910,
+  "metrics": [
+    {
+      "scenario": "match-5-full-c1",
+      "frames": 1151,
+      "matches": 60,
+      "uiP50Ms": 1.997,
+      "uiP95Ms": 5.598,
+      "uiP99Ms": 9.714,
+      "rasterP50Ms": 5.55,
+      "rasterP95Ms": 9.576,
+      "rasterP99Ms": 14.986,
+      "over8_33ms": 120,
+      "over16_67ms": 3,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "match-5-full-c1-repeat",
+      "frames": 1111,
+      "matches": 60,
+      "uiP50Ms": 1.984,
+      "uiP95Ms": 5.191,
+      "uiP99Ms": 9.727,
+      "rasterP50Ms": 5.287,
+      "rasterP95Ms": 9.205,
+      "rasterP99Ms": 13.747,
+      "over8_33ms": 101,
+      "over16_67ms": 8,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "correct-line-c1",
+      "frames": 57,
+      "matches": 1,
+      "uiP50Ms": 0.943,
+      "uiP95Ms": 2.35,
+      "uiP99Ms": 3.516,
+      "rasterP50Ms": 3.533,
+      "rasterP95Ms": 8.953,
+      "rasterP99Ms": 16.666,
+      "over8_33ms": 4,
+      "over16_67ms": 1,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "combo-lightning-c1",
+      "frames": 86,
+      "matches": 2,
+      "uiP50Ms": 0.93,
+      "uiP95Ms": 3.183,
+      "uiP99Ms": 4.333,
+      "rasterP50Ms": 3.652,
+      "rasterP95Ms": 5.568,
+      "rasterP99Ms": 7.319,
+      "over8_33ms": 0,
+      "over16_67ms": 0,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "batch-replacement-c1",
+      "frames": 90,
+      "matches": 4,
+      "uiP50Ms": 0.916,
+      "uiP95Ms": 3.834,
+      "uiP99Ms": 6.053,
+      "rasterP50Ms": 4.777,
+      "rasterP95Ms": 9.464,
+      "rasterP99Ms": 16.028,
+      "over8_33ms": 6,
+      "over16_67ms": 1,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    },
+    {
+      "scenario": "milestone-20-c1",
+      "frames": 81,
+      "matches": 20,
+      "uiP50Ms": 0.864,
+      "uiP95Ms": 2.071,
+      "uiP99Ms": 4.82,
+      "rasterP50Ms": 3.785,
+      "rasterP95Ms": 7.768,
+      "rasterP99Ms": 15.901,
+      "over8_33ms": 4,
+      "over16_67ms": 1,
+      "physicalRefreshAtScreenCapture": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ],
+      "physicalRefreshAtCompletion": [
+        "mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2400, xDpi=394.705, yDpi=394.307, refreshRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=12666666, group=0}"
+      ]
+    }
+  ],
+  "screenshots": [
+    "batch-replacement-c1",
+    "combo-lightning-c1",
+    "correct-line-c1",
+    "match-5-full-c1",
+    "match-5-full-c1-repeat",
+    "milestone-20-c1"
+  ],
+  "kind": "isolated production TrainingGameScreen callback probe with synthetic MemoryStore journal; no learner writes or input injection; warm match after 1 s, scroll/search after 3.6 s, reward measured from entry"
+}

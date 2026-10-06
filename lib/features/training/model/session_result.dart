@@ -1,4 +1,4 @@
-enum SessionEndReason { targetReached, timeExpired, userExited }
+enum SessionEndReason { targetReached, timeExpired, userExited, mistakeLimit }
 
 /// Frozen once by the engine, independent of routes and animation callbacks.
 class SessionResult {

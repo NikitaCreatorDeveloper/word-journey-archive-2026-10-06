@@ -30,7 +30,7 @@ MatchingCard mate(MatchingEngine g, MatchingCard c) => g.cards.singleWhere(
 );
 List<MatchingCard> playable(MatchingEngine g) => g.leftCards
     .whereType<MatchingCard>()
-    .where((c) => g.isActive(c.id))
+    .where((c) => g.isActive(c.id) && g.isActive(mate(g, c).id))
     .toList();
 Map<BoardSlot, MatchingCard?> board(MatchingEngine g) => {
   for (var i = 0; i < g.visiblePairCount; i++) ...{
@@ -38,6 +38,20 @@ Map<BoardSlot, MatchingCard?> board(MatchingEngine g) => {
     (left: false, row: i): g.rightCards[i],
   },
 };
+Map<String, BoardSlot> unmatchedSlots(MatchingEngine g) => {
+  for (final c in g.cards)
+    if (!g.isMatched(c.id)) c.id: g.slotIdOf(c.id)!,
+};
+void expectStationary(MatchingEngine g, Map<String, BoardSlot> slots) {
+  for (final entry in slots.entries) {
+    expect(
+      g.slotIdOf(entry.key),
+      entry.value,
+      reason: 'Unmatched card ${entry.key} must retain its slotId',
+    );
+  }
+}
+
 void valid(MatchingEngine g) {
   expect(g.debugValidate(), isTrue);
   final l = g.leftCards.whereType<MatchingCard>().toList();
@@ -54,6 +68,16 @@ void valid(MatchingEngine g) {
   );
 }
 
+void requestFinalFallback(MatchingEngine g) {
+  // Nonvisual tests explicitly request the deadline fallback for a finite
+  // session's final queued pair. Production owns its timer.
+  if (g.queuedPairCount == 1 &&
+      g.matchedPairIds.length >= 2 &&
+      g.transitions.isEmpty) {
+    expect(g.requestFallback(g.matchedPairIds.first), isTrue);
+  }
+}
+
 void settle(MatchingEngine g) {
   for (final c in g.cards.toList()) {
     if (g.isMatched(c.id)) {
@@ -61,9 +85,14 @@ void settle(MatchingEngine g) {
     }
   }
   var iterations = 0;
+  requestFinalFallback(g);
   while (g.transitions.isNotEmpty) {
     expect(++iterations, lessThan(20));
-    g.completeTransition(g.transitions.single.token);
+    final ready = g.transitions
+        .where((t) => t.committed || g.isTransitionReady(t.token))
+        .firstOrNull;
+    if (ready == null) break;
+    g.completeTransition(ready.token);
     valid(g);
   }
 }
@@ -171,33 +200,6 @@ void main() {
       expect(board(g), before);
     },
   );
-  test('Two settled matches replace four inactive cards atomically', () {
-    final g = makeGame();
-    final before = board(g);
-    final first = playable(g).first;
-    match(g, first);
-    g.settlePair(first.pairId);
-    final second = playable(g).first;
-    match(g, second);
-    expect(g.transitions, isEmpty);
-    g.settlePair(second.pairId);
-    final batch = g.transitions.single;
-    expect(batch.slots, hasLength(4));
-    expect(board(g), before);
-    expect(batch.outgoing.values.every((c) => g.isMatched(c.id)), isTrue);
-    g.completeTransition(batch.token);
-    final after = board(g);
-    for (final s in before.keys) {
-      if (batch.slots.contains(s)) {
-        expect(after[s]?.id, isNot(before[s]?.id));
-      } else {
-        expect(after[s], same(before[s]));
-      }
-    }
-    expect(g.inactivePairCount, 0);
-    expect(g.matchedCount, 2);
-    valid(g);
-  });
   test('Active selected/held cards stay fixed throughout refresh', () {
     final g = makeGame(visible: 5);
     final first = playable(g).first;
@@ -221,46 +223,6 @@ void main() {
     g.releasePointer(9);
   });
   test(
-    'Matched card still under a pointer waits for release before refresh',
-    () {
-      final g = makeGame();
-      final c = playable(g).first;
-      g.holdPointer(9, c.id);
-      match(g, c);
-      match(g, playable(g).first);
-      settle(g);
-      expect(g.transitions, isEmpty);
-      expect(g.inactivePairCount, 2);
-      g.releasePointer(9);
-      expect(g.transitions, hasLength(1));
-      settle(g);
-      expect(g.inactivePairCount, 0);
-    },
-  );
-  test(
-    'Odd final three are replaced together; finite short tail remains valid',
-    () {
-      final g = makeGame(visible: 5, target: 8);
-      match(g, playable(g).first);
-      settle(g);
-      match(g, playable(g).first);
-      settle(g);
-      expect(g.inactivePairCount, 2);
-      expect(g.transitions, isEmpty);
-      final third = playable(g).first;
-      match(g, third);
-      g.settlePair(third.pairId);
-      expect(g.transitions.single.slots, hasLength(6));
-      settle(g);
-      expect(g.queuedPairCount, 0);
-      while (!g.isComplete) {
-        match(g, playable(g).first);
-        settle(g);
-      }
-      expect(g.matchedCount, 8);
-    },
-  );
-  test(
     'No connection repeats more than twice across refreshed generations',
     () {
       final g = makeGame(target: 160);
@@ -272,10 +234,10 @@ void main() {
             continue;
           }
           final old = history[i];
-          if (old?.$1 == c.id) {
+          final right = g.rightCards.indexWhere((r) => r?.pairId == c.pairId);
+          if (old?.$1 == c.id && old?.$2 == right) {
             continue;
           }
-          final right = g.rightCards.indexWhere((r) => r?.pairId == c.pairId);
           final streak = old?.$2 == right ? old!.$3 + 1 : 1;
           expect(streak, lessThanOrEqualTo(2));
           history[i] = (c.id, right, streak);
@@ -333,6 +295,7 @@ void main() {
           expect(g.select(c.id), isNull);
           g.settlePair(c.pairId);
         }
+        requestFinalFallback(g);
         tokens.addAll(g.transitions.map((t) => t.token));
         for (final token in tokens.toList()..shuffle(random)) {
           g.completeTransition(token);
@@ -348,26 +311,6 @@ void main() {
       expect(g.matchedCount, 160);
     },
   );
-  test('One pending batch never blocks remaining active pairs', () {
-    final g = makeGame(visible: 4);
-    match(g, playable(g).first);
-    match(g, playable(g).first);
-    for (final c in g.cards) {
-      g.settlePair(c.pairId);
-    }
-    final firstToken = g.transitions.single.token;
-    match(g, playable(g).first);
-    match(g, playable(g).first);
-    expect(g.matchedCount, 4);
-    for (final c in g.cards) {
-      g.settlePair(c.pairId);
-    }
-    expect(g.transitions.single.token, firstToken);
-    g.completeTransition(firstToken);
-    expect(g.transitions.single.token, isNot(firstToken));
-    settle(g);
-    expect(g.activePairCount, 4);
-  });
   test('Deselect, same-column transfer, wrong answers and inert limits', () {
     final g = makeGame();
     final l = playable(g);

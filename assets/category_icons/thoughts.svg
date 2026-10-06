@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<defs>
+<linearGradient id="g0" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B9A5FF"/><stop offset="1" stop-color="#7661E5"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#C2BAFF"/></linearGradient>
+</defs>
+<path d="M 18.000 1.000 L 46.000 1.000 Q 63.000 1.000 63.000 18.000 L 63.000 46.000 Q 63.000 63.000 46.000 63.000 L 18.000 63.000 Q 1.000 63.000 1.000 46.000 L 1.000 18.000 Q 1.000 1.000 18.000 1.000 Z " fill="url(#g0)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 18.000 1.000 L 46.000 1.000 Q 63.000 1.000 63.000 18.000 L 63.000 46.000 Q 63.000 63.000 46.000 63.000 L 18.000 63.000 Q 1.000 63.000 1.000 46.000 L 1.000 18.000 Q 1.000 1.000 18.000 1.000 Z " fill="none" stroke="#A896E3" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 16.000 41.000 C 8.000 31.000 13.000 12.000 32.000 12.000 C 50.000 12.000 56.000 30.000 47.000 40.000 L 42.000 46.000 L 22.000 46.000 Z " fill="url(#g2)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 24.000 50.000 L 40.000 50.000 Q 41.000 50.000 41.000 51.000 L 41.000 52.000 Q 41.000 53.000 40.000 53.000 L 24.000 53.000 Q 23.000 53.000 23.000 52.000 L 23.000 51.000 Q 23.000 50.000 24.000 50.000 Z " fill="#E2DAFF" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 28.000 55.000 L 36.000 55.000 Q 37.000 55.000 37.000 56.000 L 37.000 57.000 Q 37.000 58.000 36.000 58.000 L 28.000 58.000 Q 27.000 58.000 27.000 57.000 L 27.000 56.000 Q 27.000 55.000 28.000 55.000 Z " fill="#C2BAFF" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

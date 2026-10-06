@@ -1,0 +1,421 @@
+[
+  {
+    "id": "airy.a1.drinks",
+    "title": "Напитки и простые просьбы",
+    "goal": "Выбрать напиток, объём и простое добавление.",
+    "categoryId": "food",
+    "reuse": [
+      "coffee",
+      "tea",
+      "milk",
+      "water",
+      "cup",
+      "glass",
+      "juice",
+      "hot",
+      "cold",
+      "small",
+      "large",
+      "sugar"
+    ],
+    "new": [
+      [
+        "bottle",
+        "бутылка",
+        "noun",
+        "This bottle is for water.",
+        "Эта бутылка для воды."
+      ],
+      [
+        "orange juice",
+        "апельсиновый сок",
+        "phrase",
+        "Orange juice, please.",
+        "Апельсиновый сок, пожалуйста."
+      ],
+      [
+        "black tea",
+        "чёрный чай",
+        "phrase",
+        "I like black tea.",
+        "Мне нравится чёрный чай."
+      ],
+      [
+        "hot water",
+        "горячая вода",
+        "phrase",
+        "Some hot water, please.",
+        "Горячей воды, пожалуйста."
+      ],
+      [
+        "with milk",
+        "с молоком",
+        "phrase",
+        "Tea with milk, please.",
+        "Чай с молоком, пожалуйста."
+      ],
+      [
+        "green tea",
+        "зелёный чай",
+        "phrase",
+        "Do you have green tea?",
+        "У вас есть зелёный чай?"
+      ],
+      [
+        "a cup of tea",
+        "чашка чая",
+        "phrase",
+        "I'd like a cup of tea.",
+        "Я бы хотел чашку чая."
+      ],
+      [
+        "one coffee, please",
+        "один кофе, пожалуйста",
+        "phrase",
+        "One coffee, please. A small one.",
+        "Один кофе, пожалуйста. Маленький."
+      ]
+    ]
+  },
+  {
+    "id": "airy.a1.groceries",
+    "title": "Купить продукты",
+    "goal": "Назвать простые продукты и попросить их в магазине.",
+    "categoryId": "food",
+    "reuse": [
+      "bread",
+      "milk",
+      "egg",
+      "apple",
+      "rice",
+      "cake",
+      "sugar",
+      "juice",
+      "money",
+      "shop",
+      "buy",
+      "bag"
+    ],
+    "new": [
+      [
+        "potato",
+        "картофелина",
+        "noun",
+        "I have one potato.",
+        "У меня одна картофелина."
+      ],
+      [
+        "tomato",
+        "помидор",
+        "noun",
+        "This tomato is red.",
+        "Этот помидор красный."
+      ],
+      [
+        "carrot",
+        "морковь",
+        "noun",
+        "I want a carrot.",
+        "Я хочу морковь."
+      ],
+      [
+        "onion",
+        "лук как продукт",
+        "noun",
+        "This is a big onion.",
+        "Это большая луковица."
+      ],
+      [
+        "chicken",
+        "курятина",
+        "noun",
+        "We eat chicken for dinner.",
+        "На ужин мы едим курятину."
+      ],
+      [
+        "fish",
+        "рыба как продукт",
+        "noun",
+        "I like fish with rice.",
+        "Мне нравится рыба с рисом."
+      ],
+      [
+        "meat",
+        "мясо",
+        "noun",
+        "I don't eat meat.",
+        "Я не ем мясо."
+      ],
+      [
+        "one apple, please",
+        "одно яблоко, пожалуйста",
+        "phrase",
+        "One apple, please. This one.",
+        "Одно яблоко, пожалуйста. Вот это."
+      ]
+    ]
+  },
+  {
+    "id": "airy.a1.time",
+    "title": "Время и дни недели",
+    "goal": "Назвать день и время, чтобы договориться о простом плане.",
+    "categoryId": "daily",
+    "reuse": [
+      "morning",
+      "clock",
+      "early",
+      "today",
+      "every day",
+      "in the evening",
+      "Monday",
+      "Tuesday",
+      "Saturday",
+      "Sunday",
+      "at nine",
+      "at work"
+    ],
+    "new": [
+      [
+        "Wednesday",
+        "среда",
+        "noun",
+        "Our lesson is on Wednesday.",
+        "Наш урок в среду."
+      ],
+      [
+        "Thursday",
+        "четверг",
+        "noun",
+        "I work on Thursday.",
+        "Я работаю в четверг."
+      ],
+      [
+        "Friday",
+        "пятница",
+        "noun",
+        "I am free on Friday.",
+        "Я свободен в пятницу."
+      ],
+      [
+        "week",
+        "неделя",
+        "noun",
+        "This week is busy.",
+        "Эта неделя занятая."
+      ],
+      [
+        "month",
+        "месяц",
+        "noun",
+        "I am here for a month.",
+        "Я здесь на месяц."
+      ],
+      [
+        "year",
+        "год",
+        "noun",
+        "This year is good.",
+        "Этот год хороший."
+      ],
+      [
+        "minute",
+        "минута",
+        "noun",
+        "Wait one minute, please.",
+        "Подождите одну минуту, пожалуйста."
+      ],
+      [
+        "hour",
+        "час",
+        "noun",
+        "The lesson is one hour.",
+        "Урок длится один час."
+      ]
+    ]
+  },
+  {
+    "id": "airy.a1.appearance",
+    "title": "Внешность и простое описание",
+    "goal": "Назвать человека и описать его внешность простыми словами.",
+    "categoryId": "people",
+    "reuse": [
+      "man",
+      "woman",
+      "boy",
+      "girl",
+      "mother",
+      "father",
+      "friend",
+      "person",
+      "happy",
+      "sad",
+      "good",
+      "old"
+    ],
+    "new": [
+      [
+        "hair",
+        "волосы",
+        "noun",
+        "Her hair is brown.",
+        "У неё каштановые волосы."
+      ],
+      [
+        "long",
+        "длинный",
+        "adjective",
+        "She has long hair.",
+        "У неё длинные волосы."
+      ],
+      [
+        "short",
+        "короткий",
+        "adjective",
+        "His hair is short.",
+        "У него короткие волосы."
+      ],
+      [
+        "tall",
+        "высокий о человеке",
+        "adjective",
+        "My brother is tall.",
+        "Мой брат высокий."
+      ],
+      [
+        "young",
+        "молодой",
+        "adjective",
+        "Our teacher is young.",
+        "Наш учитель молодой."
+      ],
+      [
+        "brown",
+        "коричневый",
+        "adjective",
+        "He has brown eyes.",
+        "У него карие глаза."
+      ],
+      [
+        "beautiful",
+        "красивый",
+        "adjective",
+        "She has a beautiful smile.",
+        "У неё красивая улыбка."
+      ],
+      [
+        "smile",
+        "улыбка",
+        "noun",
+        "He has a nice smile.",
+        "У него приятная улыбка."
+      ]
+    ]
+  },
+  {
+    "id": "airy.a1.lesson",
+    "title": "На уроке: действия и вопросы",
+    "goal": "Назвать учебные предметы и понять простые действия на уроке.",
+    "categoryId": "work",
+    "reuse": [
+      "school",
+      "teacher",
+      "student",
+      "lesson",
+      "classroom",
+      "book",
+      "notebook",
+      "pencil",
+      "pen",
+      "page",
+      "read",
+      "write"
+    ],
+    "new": [
+      [
+        "listen",
+        "слушать",
+        "verb",
+        "Listen to the teacher.",
+        "Слушайте учителя."
+      ],
+      [
+        "speak",
+        "говорить",
+        "verb",
+        "I speak English.",
+        "Я говорю по-английски."
+      ],
+      [
+        "spell",
+        "произносить по буквам",
+        "verb",
+        "Can you spell your name?",
+        "Можете произнести своё имя по буквам?"
+      ],
+      [
+        "ask",
+        "спрашивать",
+        "verb",
+        "Ask the teacher.",
+        "Спросите учителя."
+      ],
+      [
+        "say",
+        "сказать",
+        "verb",
+        "Say it again, please.",
+        "Скажите это ещё раз, пожалуйста."
+      ],
+      [
+        "English",
+        "английский язык",
+        "noun",
+        "We learn English at school.",
+        "Мы учим английский язык в школе."
+      ],
+      [
+        "word",
+        "слово",
+        "noun",
+        "What does this word mean?",
+        "Что означает это слово?"
+      ],
+      [
+        "sentence",
+        "предложение в языке",
+        "noun",
+        "Read this sentence.",
+        "Прочитайте это предложение."
+      ]
+    ]
+  },
+  {
+    "id": "airy.a1.packing",
+    "title": "Собрать багаж",
+    "goal": "Назвать одежду, документы и простые вещи для сумки. Общая история с другими темами.",
+    "categoryId": "trips",
+    "reuse": [
+      "suitcase",
+      "passport",
+      "shirt",
+      "coat",
+      "T-shirt",
+      "shoes",
+      "hat",
+      "bag",
+      "dress",
+      "skirt",
+      "socks",
+      "map",
+      "ticket",
+      "phone",
+      "book",
+      "notebook",
+      "pencil",
+      "pen",
+      "key",
+      "water"
+    ],
+    "new": []
+  }
+]

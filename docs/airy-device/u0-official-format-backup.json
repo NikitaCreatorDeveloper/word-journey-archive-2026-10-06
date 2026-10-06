@@ -1,0 +1,26 @@
+{
+  "format": "word-journey-personal",
+  "version": 1,
+  "settings": {
+    "level": "a1",
+    "dailyMinutes": 10,
+    "newWords": "normal",
+    "reviewMode": "match",
+    "pairs": 4,
+    "timer": 120,
+    "mistakeChallenge": false,
+    "sounds": true,
+    "volume": 0.35,
+    "haptics": true,
+    "motion": "calm",
+    "pronunciation": true,
+    "voice": null,
+    "theme": "system",
+    "largeText": false
+  },
+  "events": [],
+  "sessions": [],
+  "flags": [],
+  "awards": [],
+  "custom": []
+}

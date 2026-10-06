@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<defs>
+<linearGradient id="g0" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B9A5FF"/><stop offset="1" stop-color="#7661E5"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#C2BAFF"/></linearGradient>
+</defs>
+<path d="M 18.000 1.000 L 46.000 1.000 Q 63.000 1.000 63.000 18.000 L 63.000 46.000 Q 63.000 63.000 46.000 63.000 L 18.000 63.000 Q 1.000 63.000 1.000 46.000 L 1.000 18.000 Q 1.000 1.000 18.000 1.000 Z " fill="url(#g0)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 18.000 1.000 L 46.000 1.000 Q 63.000 1.000 63.000 18.000 L 63.000 46.000 Q 63.000 63.000 46.000 63.000 L 18.000 63.000 Q 1.000 63.000 1.000 46.000 L 1.000 18.000 Q 1.000 1.000 18.000 1.000 Z " fill="none" stroke="#A896E3" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 11.000 14.000 L 53.000 14.000 L 53.000 43.000 L 35.000 43.000 L 35.000 49.000 L 44.000 49.000 L 44.000 53.000 L 20.000 53.000 L 20.000 49.000 L 29.000 49.000 L 29.000 43.000 L 11.000 43.000 Z " fill="url(#g2)" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 17.000 19.000 L 47.000 19.000 Q 48.000 19.000 48.000 20.000 L 48.000 36.000 Q 48.000 37.000 47.000 37.000 L 17.000 37.000 Q 16.000 37.000 16.000 36.000 L 16.000 20.000 Q 16.000 19.000 17.000 19.000 Z " fill="#49477D" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

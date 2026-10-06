@@ -1,0 +1,195 @@
+@daily|Дома: найти и назвать
+key|ключ|n
+door|дверь|n
+window|окно|n
+bed|кровать|n
+room|комната|n
+house|дом|n
+open the door|открыть дверь|v
+close the window|закрыть окно|v
+go home|идти домой|v
+light|свет|u
+quiet|тихий|a|This room is quiet.|В этой комнате тихо.
+where is it?|где это?|p
+@daily|Моё утро
+morning|утро|n
+breakfast|завтрак|u
+shower|душ|n
+clock|часы на стене|n
+wake up|просыпаться|pv
+get up|вставать|pv
+wash my face|умыться|v
+brush my teeth|почистить зубы|v
+leave home|выйти из дома|v
+early|рано|d|I get up early.|Я встаю рано.
+today|сегодня|d|I work today.|Сегодня я работаю.
+every day|каждый день|p|I walk every day.|Я гуляю каждый день.
+@people|Познакомиться
+name|имя|n
+friend|друг|n
+person|человек|n
+student|студент|n
+hello|здравствуйте|p
+goodbye|до свидания|p
+nice to meet you|приятно познакомиться|p
+my name is Alex|меня зовут Алекс|p
+how are you?|как ваши дела?|p
+I'm fine|у меня всё хорошо|p
+meet a friend|встретиться с другом|v
+talk to me|поговорить со мной|v
+@people|Семья и помощь
+mother|мать|n
+father|отец|n
+sister|сестра|n
+brother|брат|n
+child|ребёнок|n
+family|семья|n
+help me|помогите мне|p
+call my sister|позвонить сестре|v
+listen to me|выслушать меня|v
+happy|счастливый|a|My brother is happy.|Мой брат счастлив.
+sad|грустный|a|The child is sad.|Ребёнку грустно.
+I'm sorry|мне жаль|p
+@shopping|Выбрать одежду
+shirt|рубашка|n
+coat|пальто|n
+bag|сумка|n
+hat|шляпа|n
+shoes|обувь|l
+buy a shirt|купить рубашку|v
+wear a coat|носить пальто|v
+blue|синий|a|This bag is blue.|Эта сумка синяя.
+red|красный|a|My coat is red.|Моё пальто красное.
+black|чёрный|a|These shoes are black.|Эта обувь чёрная.
+white|белый|a|The shirt is white.|Рубашка белая.
+I like this|мне это нравится|p
+@shopping|Спросить цену
+shop|магазин|n
+money|деньги|u
+euro|евро|n
+number|число|n
+buy|покупать|v|I want to buy a hat.|Я хочу купить шляпу.
+sell|продавать|v|They sell bags here.|Здесь продают сумки.
+cheap|дешёвый|a|This bag is cheap.|Эта сумка дешёвая.
+how much is it?|сколько это стоит?|p
+one more|ещё один|p|One more, please.|Ещё один, пожалуйста.
+that's all|это всё|p
+yes|да|p
+no|нет|p
+@city|Найти остановку
+street|улица|n
+bus|автобус|n
+train|поезд|n
+station|станция|n
+ticket|билет|n
+map|карта местности|n
+bus stop|остановка автобуса|n
+turn left|повернуть налево|v
+turn right|повернуть направо|v
+walk|гулять пешком|v
+near|рядом|d|The station is near.|Станция рядом.
+where is the station?|где станция?|p
+@trips|Приехать в отель
+hotel|отель|n
+airport|аэропорт|n
+passport|паспорт|n
+taxi|такси|n
+suitcase|чемодан|n
+arrive|прибывать|v
+stay here|остаться здесь|v
+my room|моя комната|p|This is my room.|Это моя комната.
+first night|первая ночь|p|This is my first night here.|Это моя первая ночь здесь.
+welcome|добро пожаловать|p
+I have a booking|у меня есть бронь|p
+this way|сюда, в эту сторону|p
+@work|На занятии
+teacher|учитель|n
+book|книга|n
+pen|ручка|n
+paper|бумага|u
+lesson|урок|n
+desk|письменный стол|n
+read|читать|v
+write|писать|v
+learn|учиться|v
+understand|понимать|v|I understand the question.|Я понимаю вопрос.
+repeat it|повторить это|v
+what does it mean?|что это значит?|p
+@work|Рабочий день
+job|работа, должность|n
+office|офис|n
+computer|компьютер|n
+email|электронное письмо|n
+work|работать|v
+start|начинать|v|We start at nine.|Мы начинаем в девять.
+finish|заканчивать|v|I finish at five.|Я заканчиваю в пять.
+send an email|отправить письмо|v
+busy|занятый|a|I'm busy now.|Сейчас я занят.
+free|незанятый|a|I'm free at six.|В шесть я свободен.
+at nine|в девять|p|We meet at nine.|Мы встречаемся в девять.
+see you tomorrow|до завтра|p
+@tech|Телефон и сообщение
+phone|телефон|n
+screen|экран|n
+photo|фотография|n
+message|сообщение|n
+app|приложение|n
+internet|интернет|u
+use my phone|пользоваться телефоном|v
+take a photo|сделать фотографию|v
+send a message|отправить сообщение|v
+turn it on|включить это|pv
+turn it off|выключить это|pv
+it works|это работает|p
+@nature|Прогулка и погода
+sun|солнце|n
+rain|дождь|u
+snow|снег|u
+tree|дерево|n
+flower|цветок|n
+park|парк|n
+river|река|n
+wind|ветер|u
+sunny|солнечный|a|It is sunny today.|Сегодня солнечно.
+warm|тёплый|a|The water is warm.|Вода тёплая.
+go for a walk|пойти на прогулку|v
+it's raining|идёт дождь|p
+@health|Как я себя чувствую
+head|голова|n
+hand|кисть руки|n
+leg|нога|n
+doctor|врач|n
+hospital|больница|n
+sleep|спать|v
+drink water|пить воду|v
+rest|отдыхать|v
+tired|уставший|a|I'm tired today.|Сегодня я устал.
+ill|больной|a|My friend is ill.|Мой друг болен.
+I feel well|я хорошо себя чувствую|p
+my head hurts|у меня болит голова|p
+@culture|Свободный вечер
+film|фильм|n
+music|музыка|u
+song|песня|n
+game|игра|n
+ball|мяч|n
+weekend|выходные|n
+watch a film|посмотреть фильм|v
+play a game|сыграть в игру|v
+sing|петь|v
+dance|танцевать|v
+good|хороший|a|This film is good.|Этот фильм хороший.
+let's go|пойдём|p
+@thought|Сказать простое мнение
+idea|идея|n
+question|вопрос|n
+answer|ответ|n
+think|думать|v|I think it is good.|Я думаю, это хорошо.
+know|знать|v|I know the answer.|Я знаю ответ.
+like|нравиться|v|I like this idea.|Мне нравится эта идея.
+want|хотеть|v|I want a book.|Я хочу книгу.
+need|нуждаться|v|I need some water.|Мне нужна вода.
+because|потому что|p|I stay because I'm tired.|Я остаюсь, потому что устал.
+I agree|я согласен|p
+I don't know|я не знаю|p
+why?|почему?|p

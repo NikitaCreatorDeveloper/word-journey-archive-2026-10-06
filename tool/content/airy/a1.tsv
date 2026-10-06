@@ -1,0 +1,109 @@
+# category blocks: original sense, translation, POS, contextual example pair
+@daily
+floor|пол|noun|The floor is wet.|Пол мокрый.
+wall|стена|noun|The clock is on the wall.|Часы на стене.
+sofa|диван|noun|The sofa is in my room.|Диван в моей комнате.
+lamp|лампа|noun|This lamp is on.|Эта лампа включена.
+clean the room|убирать комнату|phrase|I clean the room on Sunday.|Я убираю комнату в воскресенье.
+cook dinner|готовить ужин|phrase|We cook dinner at home.|Мы готовим ужин дома.
+go to bed|ложиться спать|phrase|I go to bed at ten.|Я ложусь спать в десять.
+in the evening|вечером|phrase|I read in the evening.|Я читаю вечером.
+@people
+boy|мальчик|noun|The boy is my brother.|Этот мальчик — мой брат.
+girl|девочка|noun|The girl is at school.|Девочка в школе.
+man|мужчина|noun|That man is our teacher.|Тот мужчина — наш учитель.
+woman|женщина|noun|The woman is my mother.|Эта женщина — моя мама.
+baby|младенец|noun|The baby is sleeping.|Младенец спит.
+parents|родители|noun|My parents are here.|Мои родители здесь.
+husband|муж|noun|Her husband is a doctor.|Её муж — врач.
+wife|жена|noun|His wife is a teacher.|Его жена — учительница.
+@food
+sugar|сахар|noun|No sugar, please.|Без сахара, пожалуйста.
+plate|тарелка|noun|The plate is on the table.|Тарелка на столе.
+glass|стакан|noun|A glass of water, please.|Стакан воды, пожалуйста.
+cake|торт|noun|This cake is good.|Этот торт вкусный.
+egg|яйцо|noun|I have an egg for breakfast.|На завтрак я ем яйцо.
+apple|яблоко|noun|I want an apple.|Я хочу яблоко.
+juice|сок|noun|Orange juice, please.|Апельсиновый сок, пожалуйста.
+rice|рис|noun|I like rice.|Мне нравится рис.
+@shopping
+skirt|юбка|noun|This skirt is blue.|Эта юбка синяя.
+dress|платье|noun|I like this dress.|Мне нравится это платье.
+socks|носки|noun|My socks are black.|Мои носки чёрные.
+T-shirt|футболка|noun|I want a white T-shirt.|Я хочу белую футболку.
+big|большой|adjective|This bag is big.|Эта сумка большая.
+new|новый|adjective|These shoes are new.|Эти туфли новые.
+old|старый|adjective|My coat is old.|Моё пальто старое.
+two, please|два, пожалуйста|phrase|Two, please. One for me and one for you.|Два, пожалуйста. Один мне и один тебе.
+@city
+road|дорога|noun|This road goes to the park.|Эта дорога ведёт в парк.
+bridge|мост|noun|The bridge is near the station.|Мост рядом со станцией.
+car|машина|noun|My car is here.|Моя машина здесь.
+bike|велосипед|noun|I go to school by bike.|Я езжу в школу на велосипеде.
+left|слева|adverb|The shop is on the left.|Магазин слева.
+right|справа|adverb|The park is on the right.|Парк справа.
+straight on|прямо|phrase|Go straight on.|Идите прямо.
+next to|рядом с|phrase|The bank is next to the shop.|Банк рядом с магазином.
+@trips
+plane|самолёт|noun|Our plane is here.|Наш самолёт здесь.
+boat|лодка|noun|The boat is small.|Лодка маленькая.
+beach|пляж|noun|We are at the beach.|Мы на пляже.
+sea|море|noun|The sea is cold.|Море холодное.
+country|страна|noun|This is a beautiful country.|Это красивая страна.
+city centre|центр города|phrase|The hotel is in the city centre.|Отель в центре города.
+go by train|ехать на поезде|phrase|We go by train.|Мы едем на поезде.
+come back|возвращаться|phrasalVerb|I come back on Monday.|Я возвращаюсь в понедельник.
+@work
+school|школа|noun|Our school is near the park.|Наша школа рядом с парком.
+classroom|классная комната|noun|The classroom is quiet.|В классной комнате тихо.
+pencil|карандаш|noun|I write with a pencil.|Я пишу карандашом.
+page|страница|noun|Read this page.|Прочитайте эту страницу.
+notebook|тетрадь|noun|My notebook is on the desk.|Моя тетрадь на парте.
+Monday|понедельник|noun|I work on Monday.|Я работаю в понедельник.
+Tuesday|вторник|noun|Our lesson is on Tuesday.|Наш урок во вторник.
+at work|на работе|phrase|My father is at work.|Мой отец на работе.
+@tech
+video|видео|noun|I watch a video on my phone.|Я смотрю видео на телефоне.
+TV|телевизор|noun|The TV is in our room.|Телевизор в нашей комнате.
+radio|радио|noun|I listen to the radio.|Я слушаю радио.
+mouse|компьютерная мышь|noun|This mouse is new.|Эта компьютерная мышь новая.
+call me|позвони мне|phrase|Call me in the evening.|Позвони мне вечером.
+my number|мой номер|phrase|This is my number.|Это мой номер.
+one photo|одна фотография|phrase|Send me one photo.|Пришли мне одну фотографию.
+on my computer|на моём компьютере|phrase|The photo is on my computer.|Фотография на моём компьютере.
+@nature
+dog|собака|noun|The dog is in the park.|Собака в парке.
+cat|кошка|noun|The cat is at home.|Кошка дома.
+bird|птица|noun|A bird is in the tree.|На дереве птица.
+green|зелёный|adjective|The park is green.|Парк зелёный.
+summer|лето|noun|I like summer.|Мне нравится лето.
+winter|зима|noun|Winter is cold here.|Зима здесь холодная.
+outside|снаружи|adverb|It is warm outside.|Снаружи тепло.
+it's snowing|идёт снег|phrase|It's snowing today.|Сегодня идёт снег.
+@health
+arm|рука от плеча до кисти|noun|My arm hurts.|У меня болит рука.
+foot|ступня|noun|My foot hurts.|У меня болит ступня.
+eye|глаз|noun|His left eye is red.|У него покраснел левый глаз.
+ear|ухо|noun|My ear hurts.|У меня болит ухо.
+nose|нос|noun|My nose is cold.|У меня холодный нос.
+mouth|рот|noun|Open your mouth.|Откройте рот.
+tooth|зуб|noun|This tooth hurts.|Этот зуб болит.
+I'm hungry|я голоден|phrase|I'm hungry. Is dinner ready?|Я голоден. Ужин готов?
+@culture
+swim|плавать|verb|I can swim.|Я умею плавать.
+run|бегать|verb|We run in the park.|Мы бегаем в парке.
+draw|рисовать|verb|I like to draw.|Мне нравится рисовать.
+picture|рисунок|noun|This picture is nice.|Этот рисунок красивый.
+guitar|гитара|noun|I play the guitar.|Я играю на гитаре.
+party|вечеринка|noun|The party is on Saturday.|Вечеринка в субботу.
+Saturday|суббота|noun|I am free on Saturday.|Я свободен в субботу.
+Sunday|воскресенье|noun|We play on Sunday.|Мы играем в воскресенье.
+@thought
+I don't like it|мне это не нравится|phrase|I don't like it. It's too cold.|Мне это не нравится. Слишком холодно.
+I want this one|я хочу вот этот|phrase|I want this one, please.|Я хочу вот этот, пожалуйста.
+I need help|мне нужна помощь|phrase|I need help with this word.|Мне нужна помощь с этим словом.
+what is it?|что это?|phrase|What is it? Is it a game?|Что это? Это игра?
+who is it?|кто это?|phrase|Who is it? Your friend?|Кто это? Твой друг?
+when?|когда?|phrase|When? On Monday?|Когда? В понедельник?
+where?|где?|phrase|Where? At home?|Где? Дома?
+not today|не сегодня|phrase|Not today. I'm busy.|Не сегодня. Я занят.

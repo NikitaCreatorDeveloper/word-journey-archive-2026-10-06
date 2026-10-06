@@ -1,0 +1,16 @@
+--------- beginning of main
+10-01 21:37:49.848  5760  6006 I flutter : The Dart VM service is listening on http://127.0.0.1:41349/flCNCWOZowE=/
+10-01 21:37:49.854  5760  5983 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+10-01 21:37:49.978  5760  5983 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+10-01 21:37:52.017  5760  5760 I flutter : WJ_PROBE_COLD:catalogAndMemoryLoadMs=1255
+10-01 21:37:54.697  5760  5760 I flutter : WJ_PROBE_SCREEN:scroll-packs
+10-01 21:37:57.699  5760  5760 I flutter : WJ_PROBE_SCROLL_EXTENT:262.27272727272725
+10-01 21:38:01.816  5760  5760 I flutter : WJ_PROBE_METRIC:{"scenario":"scroll-packs","frames":433,"valid":true,"elapsedMs":4116,"uiP50Ms":0.531,"uiP95Ms":1.333,"uiP99Ms":1.601,"rasterP50Ms":2.249,"rasterP95Ms":3.027,"rasterP99Ms":3.398,"over8_33ms":1,"over16_67ms":0}
+10-01 21:38:02.416  5760  5760 I flutter : WJ_PROBE_SCREEN:search-categories
+10-01 21:38:07.731  5760  5760 I flutter : WJ_PROBE_METRIC:{"scenario":"search-categories","frames":10,"valid":true,"elapsedMs":2313,"uiP50Ms":2.985,"uiP95Ms":22.867,"uiP99Ms":22.867,"rasterP50Ms":2.635,"rasterP95Ms":5.226,"rasterP99Ms":5.226,"over8_33ms":2,"over16_67ms":1}
+10-01 21:38:08.332  5760  5760 I flutter : WJ_PROBE_SCREEN:reward-preparation
+10-01 21:38:11.342  5760  5760 I flutter : WJ_PROBE_SCREEN:reward
+10-01 21:38:13.836  5760  5760 I flutter : WJ_PROBE_METRIC:{"scenario":"reward","frames":87,"valid":true,"elapsedMs":2501,"uiP50Ms":0.572,"uiP95Ms":1.703,"uiP99Ms":2.147,"rasterP50Ms":3.503,"rasterP95Ms":6.546,"rasterP99Ms":8.748,"over8_33ms":2,"over16_67ms":0}
+10-01 21:38:13.966  5760  5760 I flutter : WJ_PROBE_VOICES:{"count":28,"examples":[{"id":"en-AU-language","label":"en-AU · en-AU-language"},{"id":"en-GB-language","label":"en-GB · en-GB-language"}]}
+10-01 21:38:13.966  5760  5760 I flutter : WJ_PROBE_DONE:[{"scenario":"scroll-packs","frames":433,"valid":true,"elapsedMs":4116,"uiP50Ms":0.531,"uiP95Ms":1.333,"uiP99Ms":1.601,"rasterP50Ms":2.249,"rasterP95Ms":3.027,"rasterP99Ms":3.398,"over8_33ms":1,"over16_67ms":0},{"scenario":"search-categories","frames":10,"valid":true,"elapsedMs":2313,"uiP50Ms":2.985,"uiP95Ms":22.867,"uiP99Ms":22.867,"rasterP50Ms":2.635,"rasterP95Ms":5.226,"rasterP99Ms":5.226,"over8_33ms":2,"over16_67ms":1},{"scenario":"reward","frames":87,"valid":true,"elapsedMs":2501,"uiP50Ms":0.572,"uiP95Ms":1.703,"uiP99Ms":2.147,"rasterP50Ms":3.503,"rasterP95Ms":6.546,"rasterP99Ms":8.748,"over8_33ms":2,"over16_67ms":0}]
+10-01 21:38:14.566  5760  5760 I flutter : WJ_PROBE_SCREEN:done

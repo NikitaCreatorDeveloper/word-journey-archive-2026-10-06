@@ -1,0 +1,90 @@
+[
+  {
+    "path": "android\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\drawable\\ic_launcher_monochrome.xml",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\mipmap-anydpi-v33\\ic_launcher_round.xml",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\mipmap-anydpi-v33\\ic_launcher.xml",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\res\\values\\launcher_colors.xml",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\src\\main\\AndroidManifest.xml",
+    "identical": true
+  },
+  {
+    "path": "android\\app\\build.gradle.kts",
+    "identical": true
+  },
+  {
+    "path": "tool\\build_feedback_assets.py",
+    "identical": true
+  },
+  {
+    "path": "assets\\brand\\personal-icon.svg",
+    "identical": true
+  }
+]

@@ -158,6 +158,7 @@ void main() {
           for (final c in f.session.game.cards) {
             f.session.game.settlePair(c.pairId);
           }
+          engine.requestFinalFallback(f.session.game);
           for (final t in f.session.game.transitions) {
             tokens.add(t.token);
             f.session.game.completeTransition(t.token);
@@ -275,7 +276,7 @@ void main() {
       now = const Duration(seconds: 200);
       await tester.pumpAndSettle();
       expect(find.byType(TrainingResultScreen), findsOneWidget);
-      expect(find.text('Уровень пройден'), findsOneWidget);
+      expect(find.text('Цель достигнута'), findsOneWidget);
       expect(find.text('30 / 30'), findsOneWidget);
       expect(find.text('Время: 1:14'), findsOneWidget);
       expect(find.text('Ошибки: 0'), findsOneWidget);

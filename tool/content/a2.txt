@@ -1,0 +1,195 @@
+@daily|Устроиться дома
+flat|квартира|n
+neighbour|сосед|n
+kitchen|кухня|n
+fridge|холодильник|n
+washing machine|стиральная машина|n
+furniture|мебель|u
+move house|переехать|v
+tidy the room|убрать комнату|v
+do the washing|постирать|v
+repair the door|починить дверь|v
+comfortable|удобный|a|This chair is comfortable.|Этот стул удобный.
+upstairs|на верхнем этаже|d|The bedroom is upstairs.|Спальня на верхнем этаже.
+@daily|Договориться о планах
+appointment|запись на встречу|n
+calendar|календарь|n
+date|дата|n
+invitation|приглашение|n
+plan a visit|запланировать визит|v
+get ready|подготовиться|pv
+be on time|прийти вовремя|v
+wait for me|подождать меня|v
+next week|на следующей неделе|p|We meet next week.|Мы встречаемся на следующей неделе.
+in a minute|через минуту|p|I'll be ready in a minute.|Я буду готов через минуту.
+are you coming?|ты придёшь?|p
+let's meet at six|встретимся в шесть|p
+@people|Поддержать разговор
+conversation|разговор|n
+visitor|посетитель|n
+colleague|коллега|n
+introduce myself|представиться|v
+ask a question|задать вопрос|v
+tell a story|рассказать историю|v
+keep in touch|поддерживать связь|p|Let's keep in touch.|Давай поддерживать связь.
+friendly|дружелюбный|a|Our neighbour is friendly.|Наш сосед дружелюбный.
+polite|вежливый|a|That was a polite reply.|Это был вежливый ответ.
+really?|правда?|p
+what about you?|а как у тебя?|p
+I see|понятно|p
+@people|Попросить и поблагодарить
+favour|одолжение|n
+advice|совет|u
+offer|предложение помощи|n
+lend me a pen|одолжить мне ручку|v
+borrow a book|взять книгу на время|v
+invite a friend|пригласить друга|v
+thank someone|поблагодарить кого-то|v
+kind|добрый|a|That was kind of you.|Это было мило с твоей стороны.
+worried|обеспокоенный|a|I'm worried about him.|Я беспокоюсь о нём.
+could you help?|не могли бы вы помочь?|p
+you're welcome|не за что|p
+never mind|ничего страшного|p
+@shopping|Примерить и выбрать
+size|размер|n
+changing room|примерочная|n
+jumper|свитер|n
+trousers|брюки|l
+jacket|куртка|n
+try it on|примерить это|pv
+fit|подходить по размеру|v|These trousers fit me.|Эти брюки мне по размеру.
+choose a colour|выбрать цвет|v
+loose|свободный по посадке|a|This jacket is loose.|Эта куртка свободного кроя.
+tight|тесный|a|These shoes are tight.|Эта обувь тесная.
+do you have a larger size?|есть размер побольше?|p
+I'll take it|я это беру|p
+@shopping|Купить выгодно
+discount|скидка|n
+sale|распродажа|n
+customer|покупатель|n
+basket|корзина|n
+checkout|касса|n
+banknote|банкнота|n
+coin|монета|n
+compare prices|сравнить цены|v
+save money|экономить деньги|v
+spend money|тратить деньги|v
+is it on sale?|на это есть скидка?|p
+can I pay by card?|можно оплатить картой?|p
+@city|Пользоваться транспортом
+platform|платформа|n
+journey|поездка|n
+passenger|пассажир|n
+traffic|дорожное движение|u
+crossing|пешеходный переход|n
+traffic lights|светофор|l
+get on the bus|сесть в автобус|pv
+get off here|выйти здесь|pv
+cross the road|перейти дорогу|v
+change trains|пересесть на другой поезд|v
+single ticket|билет в одну сторону|p|A single ticket, please.|Билет в одну сторону, пожалуйста.
+return ticket|билет туда и обратно|p|I'd like a return ticket.|Мне нужен билет туда и обратно.
+@trips|Заселиться и спросить
+reception|стойка регистрации|u
+lift|лифт|n
+luggage|багаж|u
+double room|двухместный номер|n
+departure|отправление|n
+flight|авиарейс|n
+check in|зарегистрироваться|pv
+check out|выписаться из отеля|pv
+book a room|забронировать номер|v
+pack a suitcase|собрать чемодан|v
+is breakfast included?|завтрак включён?|p
+what time is check-out?|во сколько выезд?|p
+@work|Учиться самостоятельно
+course|курс обучения|n
+exercise|учебное упражнение|n
+homework|домашнее задание|u
+dictionary|словарь|n
+mistake|ошибка|n
+exam|экзамен|n
+practise speaking|практиковать речь|v
+take notes|делать записи|v
+look it up|посмотреть в справочнике|pv
+remember|помнить|v|I remember this word.|Я помню это слово.
+forget|забывать|v|I sometimes forget names.|Иногда я забываю имена.
+could you repeat that?|не могли бы вы повторить?|p
+@work|Обсудить задачу
+meeting|совещание|n
+task|задача|n
+manager|руководитель|n
+schedule|расписание|n
+break|перерыв|n
+report|отчёт|n
+organise a meeting|организовать встречу|v
+explain the task|объяснить задачу|v
+check the details|проверить детали|v
+finish on time|закончить вовремя|v
+ready|готовый|a|The report is ready.|Отчёт готов.
+can we start?|можно начинать?|p
+@tech|Сохранить и отправить
+file|файл|n
+folder|папка|n
+password|пароль|n
+keyboard|клавиатура|n
+charger|зарядное устройство|n
+battery|батарея|n
+save a file|сохранить файл|v
+download a photo|скачать фотографию|v
+upload a file|загрузить файл на сервер|v
+click the link|нажать на ссылку|v
+log in|войти в систему|pv
+the battery is low|батарея разряжена|p
+@nature|Спланировать прогулку
+forecast|прогноз погоды|n
+cloud|облако|n
+storm|гроза|n
+temperature|температура|n
+forest|лес|n
+lake|озеро|n
+umbrella|зонт|n
+bring a coat|взять с собой пальто|v
+follow the path|идти по тропинке|v
+cloudy|облачный|a|It is cloudy this morning.|Сегодня утром облачно.
+wet|мокрый|a|My shoes are wet.|Моя обувь мокрая.
+it might rain|возможно, будет дождь|p
+@health|Записаться к врачу
+symptom|симптом|n
+pain|боль|u
+cough|кашель|n
+fever|повышенная температура|n
+medicine|лекарство|u
+pharmacy|аптека|n
+make an appointment|записаться на приём|v
+describe the pain|описать боль|v
+feel dizzy|чувствовать головокружение|v
+hurt|болеть, о части тела|v|My arm hurts.|У меня болит рука.
+I have a cold|у меня простуда|p
+since yesterday|со вчерашнего дня|p|I've felt tired since yesterday.|Я чувствую усталость со вчерашнего дня.
+@culture|Выбрать занятие
+hobby|увлечение|n
+concert|концерт|n
+cinema|кинотеатр|n
+museum|музей|n
+swimming pool|бассейн|n
+team|команда|n
+join a club|вступить в клуб|v
+go swimming|пойти поплавать|v
+collect stamps|собирать марки|v
+enjoy a concert|насладиться концертом|v
+interesting|интересный|a|The museum is interesting.|Музей интересный.
+boring|скучный|a|This game is boring.|Эта игра скучная.
+@thought|Объяснить выбор
+reason|причина|n
+choice|выбор|n
+example|пример|n
+decide|решать|v|I can't decide yet.|Я пока не могу решить.
+agree with you|согласиться с вами|v
+disagree|не соглашаться|v
+better|лучше|d|This one works better.|Этот вариант работает лучше.
+worse|хуже|d|I feel worse today.|Сегодня я чувствую себя хуже.
+maybe|возможно|d|Maybe we can meet tomorrow.|Возможно, мы сможем встретиться завтра.
+I think so|я так думаю|p
+for example|например|p|Try a sport, for example tennis.|Попробуйте спорт, например теннис.
+in my opinion|по моему мнению|p|In my opinion, it is useful.|По моему мнению, это полезно.

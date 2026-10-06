@@ -1,0 +1,195 @@
+@daily|Нюансы условий проживания
+occupancy|занятость помещения жильцами|u
+upkeep|поддержание в хорошем состоянии|u
+amenity|бытовое удобство|n
+liability for damage|ответственность за ущерб|u
+structural defect|дефект конструкции|n
+binding agreement|обязательное к исполнению соглашение|n
+adhere to the terms|соблюдать условия|v
+give due notice|уведомить в установленный срок|v
+remedy a defect|устранить дефект|v
+take reasonable precautions|принять разумные меры предосторожности|v
+fit for purpose|пригодный для своей задачи|a|The room is fit for purpose.|Комната подходит для своей задачи.
+under the circumstances|в сложившихся обстоятельствах|p
+@daily|Осмыслить свои привычки
+inertia|инерция в поведении|u
+resilience|способность восстанавливаться|u
+complacency|самодовольная беспечность|u
+inclination|склонность|n
+curb a habit|ограничить привычку|v
+reconcile competing priorities|согласовать конкурирующие приоритеты|v
+make a conscious effort|приложить сознательное усилие|v
+take stock of my routine|оценить свой распорядок|v
+fall into a pattern|попасть в повторяющуюся схему|pv
+counterproductive|мешающий достижению цели|a|Skipping rest is counterproductive.|Пропуск отдыха мешает достижению цели.
+on reflection|после размышления|p
+by and large|в целом, по большей части|p
+@people|Описать тон общения
+rapport|взаимопонимание в общении|u
+reticence|сдержанность в высказываниях|u
+candour|откровенность|u
+tact|такт|u
+put someone at ease|помочь человеку расслабиться|v
+convey a sense of warmth|передать ощущение сердечности|v
+read between the lines|читать между строк|v
+broach a subject|завести разговор на тему|v
+forthcoming|охотно делящийся информацией|a|She was forthcoming about the changes.|Она охотно рассказала об изменениях.
+aloof|отстранённый|a|He seemed aloof at first.|Сначала он казался отстранённым.
+without wishing to offend|не желая обидеть|p
+if I may be frank|если можно говорить откровенно|p
+@people|Уладить напряжённую ситуацию
+grievance|причина недовольства|n
+concession|уступка|n
+reconciliation|примирение|u
+good faith|добросовестность в намерениях|u
+defuse the tension|разрядить напряжение|v
+acknowledge a valid point|признать обоснованный довод|v
+refrain from judging|воздержаться от осуждения|v
+extend an olive branch|сделать примирительный жест|v
+conciliatory|направленный на примирение|a|She used a conciliatory tone.|Она говорила примирительным тоном.
+inadvertent|непреднамеренный|a|The offence was inadvertent.|Обида была нанесена непреднамеренно.
+let's not dwell on it|давайте не зацикливаться на этом|p
+I take your point|я понимаю ваш довод|p
+@shopping|Точно сформулировать претензию
+redress|возмещение или исправление ущерба|u
+statutory right|право, установленное законом|n
+breach of contract|нарушение договора|n
+misrepresentation|искажённое представление фактов|u
+terms and conditions|условия договора|l
+remedial action|действие для исправления проблемы|u
+substantiate a complaint|подкрепить жалобу фактами|v
+seek redress|добиваться возмещения ущерба|v
+invoke a warranty|сослаться на гарантию|v
+escalate a complaint|передать жалобу выше по инстанции|v
+as stipulated|как предусмотрено условиями|p
+I reserve the right|я сохраняю за собой право|p
+@shopping|Обсудить финансовую устойчивость
+liquidity|доступность средств для платежей|u
+contingency fund|резерв на непредвиденные расходы|n
+expenditure|расходование средств|u
+disposable income|доход после обязательных удержаний|u
+cash flow|движение денежных средств|u
+financial cushion|финансовая подушка|n
+offset the cost|компенсировать затраты|v
+allocate a contingency|выделить резерв средств|v
+live within my means|жить по средствам|v
+factor in the fees|учесть комиссии|pv
+prudent|предусмотрительный|a|That was a prudent decision.|Это было предусмотрительное решение.
+in the long run|в долгосрочной перспективе|p
+@city|Обсудить городскую среду
+urban sprawl|разрастание городской застройки|u
+zoning|зонирование территории|u
+regeneration|обновление городской территории|u
+interchange|транспортный пересадочный узел|n
+thoroughfare|основная проезжая улица|n
+public provision|обеспечение общественными услугами|u
+alleviate congestion|облегчить перегруженность дорог|v
+enhance accessibility|повысить доступность среды|v
+address disparities|устранить неравенство условий|v
+reroute services|изменить маршруты транспорта|v
+seamless|плавный, без разрывов|a|The transfer was seamless.|Пересадка прошла плавно.
+from a planning standpoint|с позиции городского планирования|p
+@trips|Разобраться в особых условиях поездки
+contingency plan|план на случай осложнений|n
+repatriation|возвращение на родину|u
+carrier liability|ответственность перевозчика|u
+entry requirement|условие въезда|n
+travel advisory|информационное предупреждение о поездках|n
+unforeseen circumstance|непредвиденное обстоятельство|n
+make alternative arrangements|организовать альтернативный вариант|v
+waive a cancellation fee|отменить сбор за отмену|v
+ascertain the requirements|выяснить точные требования|v
+liaise with the carrier|взаимодействовать с перевозчиком|v
+at no additional cost|без дополнительных затрат|p
+pending confirmation|в ожидании подтверждения|p
+@work|Критически читать исследование
+premise|исходная посылка|n
+inference|вывод из данных|n
+robustness|устойчивость результатов|u
+bias|систематическое смещение|n
+correlation|корреляция|n
+causality|причинная связь|u
+scrutinise the evidence|тщательно проверить данные|v
+corroborate a finding|подтвердить результат другими данными|v
+account for a discrepancy|объяснить расхождение|v
+differentiate correlation from causation|отличить корреляцию от причинности|v
+tentative|предварительный, неокончательный|a|This conclusion is tentative.|Этот вывод предварительный.
+the findings warrant caution|результаты требуют осторожности|p
+@work|Согласовать стратегию
+accountability|ответственность с отчётностью|u
+autonomy|самостоятельность в решениях|u
+governance|система управления|u
+alignment|согласованность целей|u
+feasibility|практическая осуществимость|u
+resource allocation|распределение ресурсов|u
+articulate a strategy|ясно сформулировать стратегию|v
+mitigate a risk|снизить риск|v
+streamline a process|упростить и ускорить процесс|v
+leverage existing expertise|использовать имеющийся опыт|v
+we need a coherent approach|нужен согласованный подход|p
+the remit is clearly defined|границы полномочий ясно определены|p
+@tech|Обсудить качество системы
+interoperability|взаимодействие разных систем|u
+scalability|способность масштабироваться|u
+latency|задержка отклика|u
+redundancy|резервирование компонентов|u
+backward compatibility|совместимость со старыми версиями|u
+attack surface|совокупность возможных точек атаки|n
+isolate a failure|локализовать сбой|v
+validate an assumption|проверить предположение|v
+enforce a constraint|обеспечить соблюдение ограничения|v
+audit a dependency|проверить зависимость программы|v
+the change is idempotent|повтор изменения не меняет результат|p
+there is a single source of truth|есть единый достоверный источник данных|p
+@nature|Точно говорить о воздействии на природу
+ecosystem resilience|устойчивость экосистемы|u
+habitat fragmentation|раздробление среды обитания|u
+depletion|истощение ресурсов|u
+ecological balance|экологическое равновесие|u
+stewardship|ответственное управление ресурсами|u
+abundance|изобилие|u
+restore a degraded habitat|восстановить нарушенную среду обитания|v
+curtail resource use|ограничить использование ресурсов|v
+assess cumulative effects|оценить накопленный эффект|v
+reconcile growth with conservation|согласовать рост с охраной природы|v
+irreversible|необратимый|a|Some changes may be irreversible.|Некоторые изменения могут быть необратимыми.
+on an unprecedented scale|в беспрецедентном масштабе|p
+@health|Уточнить описание для врача
+onset|начало появления симптома|n
+predisposition|предрасположенность|n
+underlying condition|основное сопутствующее заболевание|n
+intermittent discomfort|периодическое неприятное ощущение|u
+range of motion|объём движений|n
+functional limitation|ограничение повседневных функций|n
+pinpoint the location|точно указать место|v
+elaborate on a symptom|подробнее описать симптом|v
+distinguish soreness from pain|отличить болезненность от боли|v
+describe a gradual onset|описать постепенное начало|v
+it is aggravated by movement|это усиливается при движении|p
+it subsides with rest|это стихает в покое|p
+@culture|Описать художественные нюансы
+subtext|подтекст|n
+juxtaposition|сопоставление рядом|n
+allusion|аллюзия, косвенная отсылка|n
+motif|повторяющийся художественный мотив|n
+nuance|оттенок смысла|n
+ambiguity|неоднозначность|u
+evoke a memory|вызвать воспоминание|v
+subvert expectations|нарушить ожидания необычным образом|v
+convey an underlying message|передать скрытую основную мысль|v
+resonate with the audience|найти отклик у публики|v
+poignant|пронзительно трогательный|a|The final image was poignant.|Последний образ был пронзительно трогательным.
+open to interpretation|допускающий разные толкования|a|The ending is open to interpretation.|Концовка допускает разные толкования.
+@thought|Взвесить сложный аргумент
+caveat|оговорка, ограничивающая утверждение|n
+rationale|обоснование решения|n
+contention|утверждение в споре|n
+plausibility|правдоподобие|u
+qualify a statement|снабдить утверждение оговоркой|v
+concede a point|признать отдельный довод|v
+refute an argument|опровергнуть аргумент|v
+draw a subtle distinction|провести тонкое различие|v
+insofar as|в той мере, в какой|p|I agree insofar as the data support it.|Я согласен в той мере, в какой это подтверждают данные.
+on balance|учитывая все обстоятельства|p
+for the sake of argument|ради обсуждения предположения|p
+that is a false equivalence|это ложное приравнивание|p

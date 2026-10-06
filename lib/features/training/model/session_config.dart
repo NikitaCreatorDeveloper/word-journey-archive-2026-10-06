@@ -11,6 +11,7 @@ class SessionConfig {
     required this.mode,
     this.timeLimitSeconds,
     bool? finishOnTarget,
+    this.enforceMistakeLimit = false,
   }) : finishOnTarget = finishOnTarget ?? true {
     if (visiblePairs < 1) {
       throw ArgumentError.value(
@@ -56,5 +57,6 @@ class SessionConfig {
   final int? timeLimitSeconds;
   final SessionMode mode;
   final bool finishOnTarget;
+  final bool enforceMistakeLimit;
   bool get isTimed => mode == SessionMode.timed && timeLimitSeconds != null;
 }

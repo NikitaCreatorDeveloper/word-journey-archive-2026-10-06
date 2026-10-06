@@ -1,0 +1,241 @@
+{
+  "tablesUnchanged": {
+    "settings": true,
+    "events": true,
+    "sessions": true,
+    "flags": true,
+    "awards": true,
+    "custom": true
+  },
+  "countsBefore": {
+    "settings": 1,
+    "events": 409,
+    "sessions": 6,
+    "flags": 0,
+    "awards": 4,
+    "custom": 0
+  },
+  "countsAfter": {
+    "settings": 1,
+    "events": 409,
+    "sessions": 6,
+    "flags": 0,
+    "awards": 4,
+    "custom": 0
+  },
+  "protected": {
+    "icons": {
+      "android\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml": true,
+      "android\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml": true,
+      "android\\app\\src\\main\\res\\drawable\\ic_launcher_monochrome.xml": true,
+      "android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml": true,
+      "android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml": true,
+      "android\\app\\src\\main\\res\\mipmap-anydpi-v33\\ic_launcher_round.xml": true,
+      "android\\app\\src\\main\\res\\mipmap-anydpi-v33\\ic_launcher.xml": true,
+      "android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png": true,
+      "android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png": true,
+      "android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png": true,
+      "android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png": true,
+      "android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png": true,
+      "android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png": true,
+      "android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png": true,
+      "android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png": true,
+      "android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png": true,
+      "android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png": true,
+      "android\\app\\src\\main\\res\\values\\launcher_colors.xml": true,
+      "android\\app\\src\\main\\AndroidManifest.xml": true,
+      "android\\app\\build.gradle.kts": true,
+      "tool\\build_feedback_assets.py": true,
+      "assets\\brand\\personal-icon.svg": true
+    },
+    "protected": {
+      "lib/features/training/logic/matching_engine.dart": true,
+      "lib/features/training/logic/session_clock.dart": true,
+      "lib/features/training/logic/training_session.dart": true,
+      "lib/features/progress/achievement_service.dart": true,
+      "lib/features/progress/backup_service.dart": true,
+      "lib/features/progress/mastery_policy.dart": true,
+      "lib/features/progress/practice_event.dart": true,
+      "lib/features/progress/session_journal.dart": true,
+      "lib/features/progress/trainer_data.dart": true,
+      "lib/features/progress/trainer_store.dart": true,
+      "lib/features/profile/cefr_level.dart": true,
+      "lib/features/profile/cefr_profile.dart": true,
+      "lib/features/vocabulary/vocabulary_concept.dart": true,
+      "lib/features/vocabulary/vocabulary_repository.dart": true,
+      "lib/features/settings/audio_feedback_service.dart": true,
+      "lib/features/settings/trainer_settings.dart": true
+    }
+  },
+  "catalogUnchanged": true,
+  "audioUnchanged": {
+    "combo.wav": true,
+    "correct.wav": true,
+    "finish.wav": true,
+    "milestone.wav": true,
+    "select.wav": true,
+    "wrong.wav": true
+  },
+  "dependencyLockUnchanged": true,
+  "apk": "D:\\Projects\\word_journey\\checkpoints\\word-journey-indigo-review.apk",
+  "apkSha256": "ffc012e0bfec3f4e15476680df5d5cb81725d0083c20df530a7f39736fd281ee",
+  "assets": [
+    {
+      "path": "assets/category_icons/city.svg",
+      "bytes": 3056,
+      "sha256": "d3ca9cc890ba605968dbc46ee8c7801b65b4ce658b9197974dc3e66e5ce05ded",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/category_icons/communication.svg",
+      "bytes": 1813,
+      "sha256": "7f0095484b7bdb0d361bad06cf39c4005cac8403a48bcaf3f8bdff311209d734",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/category_icons/daily.svg",
+      "bytes": 1250,
+      "sha256": "52b2fb3b817e18ffe8f8aa29cb1d4f016cd24beba1e68b3131978ce0f898e0d1",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/category_icons/food.svg",
+      "bytes": 1469,
+      "sha256": "84159e61b62ac8c0e61ad5a9882f46821ad66c1b30699ae7741cce686f487b02",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/category_icons/health.svg",
+      "bytes": 1266,
+      "sha256": "f0c4185133a90bb0ad23cacca214b217cd71897bfa0887b3e920a1937a998ddc",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/category_icons/leisure.svg",
+      "bytes": 1315,
+      "sha256": "fe8908d42f48c86e88acca0eec2445114207e3ef26b0bfdb98a9fc8bda074dd8",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/category_icons/nature.svg",
+      "bytes": 1318,
+      "sha256": "d23203bb0b4047b76cbf92c10b58d28be4eb164a24b81b4668b201108f3f4726",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/category_icons/shopping.svg",
+      "bytes": 1334,
+      "sha256": "f916ab7cae236edd9502d5ca605c02a752e39fbc4191f04e6bd327c9e9da99ec",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/category_icons/technology.svg",
+      "bytes": 1575,
+      "sha256": "b7d39d80fd8570436c47b081954bd9d21475fb8b356a6a4ab580cf9862658878",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/category_icons/thoughts.svg",
+      "bytes": 1827,
+      "sha256": "0bee8d82529f9ce3a43493e18fd2bb3752e926331f6f3dceb003a2ef38593cb5",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/category_icons/travel.svg",
+      "bytes": 1346,
+      "sha256": "93db833619427139061eca0bf8d65e934790e13665b44ca3c512b1b5cb9dcf04",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/category_icons/work_study.svg",
+      "bytes": 1366,
+      "sha256": "0c6170414401ef211e00e8dfc95eaae8c3f67573b073e24268b0ff9947dab9c2",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/illustrations/continue_landscape.svg",
+      "bytes": 5535,
+      "sha256": "4037ca87e2c6ee87e96187c37c0f4ad10cbb70fae120c6ebb80b7a963e875768",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/illustrations/empty_review_box.svg",
+      "bytes": 3835,
+      "sha256": "ed085f3a13cb0288d26223ce12acc2e24b710145ed2fd78d8144aec659d94c73",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/illustrations/review_plant.svg",
+      "bytes": 4971,
+      "sha256": "ead76a8470441a548f4d064f5c7f1037ab3b9649856ca74ece74ebc60a5053e8",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/ranks/rank_flow.svg",
+      "bytes": 8684,
+      "sha256": "e2a16f6cbe68982aa6225d0f2a1cc139d66c9a38eaecaa74c71f936e0515b890",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/ranks/rank_focus.svg",
+      "bytes": 9386,
+      "sha256": "370ba00a9abbdcf949758f794c3586d3515736b04a300939df71dd84ce1c4bb2",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/ranks/rank_horizon.svg",
+      "bytes": 9590,
+      "sha256": "c629e6e95e245f072c81d95fbb030af824633da647a5d06b3433844672c19766",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/ranks/rank_impulse.svg",
+      "bytes": 8244,
+      "sha256": "7d3ba68451afcd584c29d283005ea5d7e4947fc0548fd8ff8d1071239319ff2b",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/ranks/rank_lexicon.svg",
+      "bytes": 9602,
+      "sha256": "041dcd76e3ff6aca589c29e6ba99720150c020500054b75a9fd35c8e9f7e4ff9",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/ranks/rank_resonance.svg",
+      "bytes": 9386,
+      "sha256": "6eec469569b6b268d5a0e3cbe1fef1942fff90f7edd7c247471afa931fd7c6d0",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/ranks/rank_rhythm.svg",
+      "bytes": 9413,
+      "sha256": "4f085b3564f6e82480a96a8ceec6d3dc80243d24d61d28cfc82acf174295c70a",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/ranks/rank_spark.svg",
+      "bytes": 8278,
+      "sha256": "aa34a72f9a2713fe1f82bd9466837f179155d4b9934c4782aca4965d203ee2d0",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/ranks/rank_spectrum.svg",
+      "bytes": 10179,
+      "sha256": "87999f230bd69f5dcc7ef76802147c838e3fa8306e2d93c793b55b15b3b930ee",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/ranks/rank_start.svg",
+      "bytes": 4979,
+      "sha256": "8f42f8e76998ce29f217d072fc53b4a6d91b8cbf367ca83fe28a8f8cc19025d6",
+      "embeddedIdentically": true
+    },
+    {
+      "path": "assets/ranks/rank_synthesis.svg",
+      "bytes": 9917,
+      "sha256": "c65c6c1efba973e0283a0a8a18e7cb96be16e0980485ce37c60ba1d909050a35",
+      "embeddedIdentically": true
+    }
+  ],
+  "profileComplete": true
+}

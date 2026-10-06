@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:word_journey/app/app_theme.dart';
+import 'package:word_journey/features/training/widgets/pair_count_selector.dart';
 import 'package:word_journey/features/training/logic/matching_engine.dart';
 import 'package:word_journey/features/training/logic/session_clock.dart';
 import 'package:word_journey/features/training/logic/training_session.dart';
@@ -110,7 +111,7 @@ void main() {
     await tester.tap(find.text('Выйти'));
     await tester.pumpAndSettle();
     expect(find.byType(SegmentedButton<String>), findsNothing);
-    expect(find.byType(SegmentedButton<int>), findsOneWidget);
+    expect(find.byType(PairCountSelector), findsOneWidget);
     for (final text in ['20', '40', '60']) {
       expect(find.text(text), findsNothing);
     }

@@ -1,0 +1,84 @@
+{
+  "published": false,
+  "reason": "Oxford topic-sense labels for cereal/toast/bowl suggest a level mismatch; review required before publication.",
+  "packs": [
+    {
+      "id": "airy.a1.breakfast",
+      "title": "Завтрак за столом",
+      "goal": "Назвать еду за завтраком и попросить простую порцию.",
+      "categoryId": "food",
+      "reuse": [
+        "bread",
+        "milk",
+        "egg",
+        "coffee",
+        "tea",
+        "sugar",
+        "juice",
+        "apple",
+        "plate",
+        "spoon",
+        "glass",
+        "please"
+      ],
+      "new": [
+        [
+          "toast",
+          "тост",
+          "noun",
+          "I want toast for breakfast.",
+          "Я хочу тост на завтрак."
+        ],
+        [
+          "cereal",
+          "хлопья для завтрака",
+          "noun",
+          "I have cereal with milk.",
+          "Я ем хлопья с молоком."
+        ],
+        [
+          "banana",
+          "банан",
+          "noun",
+          "I eat a banana in the morning.",
+          "Утром я ем банан."
+        ],
+        [
+          "bowl",
+          "миска",
+          "noun",
+          "The cereal is in a bowl.",
+          "Хлопья в миске."
+        ],
+        [
+          "jam",
+          "варенье",
+          "noun",
+          "I like bread with jam.",
+          "Мне нравится хлеб с вареньем."
+        ],
+        [
+          "have breakfast",
+          "завтракать",
+          "phrase",
+          "I have breakfast at eight.",
+          "Я завтракаю в восемь."
+        ],
+        [
+          "I'd like an egg",
+          "я бы хотел яйцо",
+          "phrase",
+          "I'd like an egg, please.",
+          "Я бы хотел яйцо, пожалуйста."
+        ],
+        [
+          "no milk, please",
+          "без молока, пожалуйста",
+          "phrase",
+          "No milk, please. Just tea.",
+          "Без молока, пожалуйста. Только чай."
+        ]
+      ]
+    }
+  ]
+}

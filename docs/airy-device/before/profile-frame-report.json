@@ -1,0 +1,78 @@
+{
+  "complete": true,
+  "metrics": [
+    {
+      "scenario": "match-4-calm-a1",
+      "frames": 1131,
+      "matches": 60,
+      "elapsedMs": 11284,
+      "uiP50Ms": 1.617,
+      "uiP95Ms": 4.256,
+      "uiP99Ms": 5.707,
+      "rasterP50Ms": 3.395,
+      "rasterP95Ms": 6.23,
+      "rasterP99Ms": 7.307,
+      "over16_67ms": 0,
+      "over8_33ms": 3
+    },
+    {
+      "scenario": "match-5-full-c1",
+      "frames": 936,
+      "matches": 60,
+      "elapsedMs": 11390,
+      "uiP50Ms": 4.554,
+      "uiP95Ms": 10.202,
+      "uiP99Ms": 16.039,
+      "rasterP50Ms": 5.852,
+      "rasterP95Ms": 11.06,
+      "rasterP99Ms": 15.13,
+      "over16_67ms": 18,
+      "over8_33ms": 257
+    },
+    {
+      "scenario": "match-5-calm-c1",
+      "frames": 1021,
+      "matches": 60,
+      "elapsedMs": 11356,
+      "uiP50Ms": 3.754,
+      "uiP95Ms": 7.429,
+      "uiP99Ms": 11.644,
+      "rasterP50Ms": 4.76,
+      "rasterP95Ms": 8.99,
+      "rasterP99Ms": 11.69,
+      "over16_67ms": 1,
+      "over8_33ms": 108
+    },
+    {
+      "scenario": "match-5-minimal-c1",
+      "frames": 227,
+      "matches": 60,
+      "elapsedMs": 11263,
+      "uiP50Ms": 3.195,
+      "uiP95Ms": 5.072,
+      "uiP99Ms": 7.805,
+      "rasterP50Ms": 2.435,
+      "rasterP95Ms": 6.019,
+      "rasterP99Ms": 8.188,
+      "over16_67ms": 0,
+      "over8_33ms": 3
+    }
+  ],
+  "screenshots": [
+    "categories-dark",
+    "categories-light",
+    "match-4-calm-a1",
+    "match-5-calm-c1",
+    "match-5-full-c1",
+    "match-5-minimal-c1",
+    "progress-dark",
+    "progress-light",
+    "recall-dark",
+    "recall-light",
+    "review-dark",
+    "review-light",
+    "settings-dark",
+    "settings-light"
+  ],
+  "kind": "isolated model-driven board probe; no learner writes or input injection"
+}

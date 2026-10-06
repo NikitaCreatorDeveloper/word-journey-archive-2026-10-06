@@ -1,0 +1,157 @@
+{
+  "iconAndConfig": [
+    {
+      "path": "android\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml",
+      "sha256": "E8BE583D529DDE3C76D14BEF63D5ADF64E16A345DE63B85316905EB35F531634",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml",
+      "sha256": "FCFEC5C94F4F9B28905F7A11FFF8067CA64C57891960AB5052453A7DC223743F",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\drawable\\ic_launcher_monochrome.xml",
+      "sha256": "727F4AF6326BC516E5704A37F1248FC221B4136D524A58FB3357BD334F57D820",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml",
+      "sha256": "440F12CDA61B0E65264C5008ACE9BBFE40D5BE26B5A544884F48D88ABA69A9D9",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml",
+      "sha256": "440F12CDA61B0E65264C5008ACE9BBFE40D5BE26B5A544884F48D88ABA69A9D9",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\mipmap-anydpi-v33\\ic_launcher_round.xml",
+      "sha256": "79DD813DC63827EFB19FBF7F0A8886BC6CCB0C4CE92E38A838E486FCE5E96FDE",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\mipmap-anydpi-v33\\ic_launcher.xml",
+      "sha256": "79DD813DC63827EFB19FBF7F0A8886BC6CCB0C4CE92E38A838E486FCE5E96FDE",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png",
+      "sha256": "CB19C0CA408BA9DA3E8912A1864D78ED5247030E0961B68155B57CABE957F2C1",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png",
+      "sha256": "A15D564CDEC080B8C84B04F8FA45C08415939A6BCC54958B3FEF3869AC5D0C24",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png",
+      "sha256": "6E9CB34C3615A1AD1C4DA4460218533B91B12215FFA8B11E37072784D9FDAE51",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png",
+      "sha256": "5C790AE27DAE2D7E2D9A53EE41413563EE1B441B772D096AD9A644F40DF66610",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png",
+      "sha256": "DF917F3E6D9756B682AED15FADD710891F7378144B274CB28E0FB96B3D5942D5",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png",
+      "sha256": "63A8D9A729FCA3EDE2E40BB890EE5E5BC9CFF0EAA7A6B37B4769104A3516431E",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png",
+      "sha256": "A0A004EA32B15CB82B3780CCE676A4643C689531DF46E6BE8A89F3C5C49C4945",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png",
+      "sha256": "E629949BC19C6BBB124A5826C806EA14EE5AEBB5DBB2BABBD57C00AF2F5F406C",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png",
+      "sha256": "1A935AC46148EA2388C4F886AECE12AB3049387B6030EC946B28C22CD2E2A76B",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png",
+      "sha256": "7205B188BADFCC41D299588C20FB52DE533C54D3EE305413CA8FBDBBD17A27F1",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\res\\values\\launcher_colors.xml",
+      "sha256": "C6101D255039ECDB8AE272B6E40A803382E7C19D7865095802988A92168F79EB",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\src\\main\\AndroidManifest.xml",
+      "sha256": "ECE027744A8289A2B28A7078AF9D28BACCDB635A05C92DC86E7F9E42F49D5B76",
+      "identical": true
+    },
+    {
+      "path": "android\\app\\build.gradle.kts",
+      "sha256": "96BBFDFE2207C0B98C70EF379541AA3C0FA68FC5BC8E2BA1B69434754B6666F1",
+      "identical": true
+    },
+    {
+      "path": "tool\\build_feedback_assets.py",
+      "sha256": "3EC71539A61CD2EF29A5AE52461DDBAB2E0A377EF8B1846E5616E1A65422DD4F",
+      "identical": true
+    },
+    {
+      "path": "assets\\brand\\personal-icon.svg",
+      "sha256": "2D6DE6A20DFF6BA99967D4D69B86EE4069EE18F5AD451BABB588C6C34E6A1445",
+      "identical": true
+    }
+  ],
+  "coreAndIntervalsIdentical": {
+    "lib/features/training/logic/matching_engine.dart": true,
+    "lib/features/training/logic/training_session.dart": true,
+    "lib/features/training/logic/session_clock.dart": true,
+    "lib/features/progress/mastery_policy.dart": true,
+    "lib/features/progress/practice_event.dart": true
+  },
+  "legacyConceptsPreserved": 1000,
+  "legacyPacksAndMembershipsPreserved": 85,
+  "publishedConcepts": 1520,
+  "publishedPacks": 91,
+  "apkSha256": "5e6973fa61ffaf2486209214c311cc57faa188487f94bb9f5fbc5401a9346d12",
+  "certificateSha256": "0535940c371a16e0818928fa971616823285bf353c7902a792b0c2ff774ab189",
+  "applicationId": "com.wordjourney.app",
+  "displayName": "Word Journey",
+  "deviceData": {
+    "status": "identical",
+    "tables": {
+      "settings": 1,
+      "events": 0,
+      "sessions": 0,
+      "flags": 0,
+      "awards": 0,
+      "custom": 0
+    },
+    "settings": {
+      "level": "a1",
+      "dailyMinutes": 10,
+      "newWords": "normal",
+      "reviewMode": "match",
+      "pairs": 4,
+      "timer": 120,
+      "mistakeChallenge": false,
+      "sounds": true,
+      "volume": 0.35,
+      "haptics": true,
+      "motion": "calm",
+      "pronunciation": true,
+      "voice": null,
+      "theme": "system",
+      "largeText": false
+    }
+  }
+}

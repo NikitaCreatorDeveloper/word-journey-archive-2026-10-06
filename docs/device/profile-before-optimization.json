@@ -1,0 +1,64 @@
+{
+  "complete": true,
+  "metrics": [
+    {
+      "scenario": "match-4-calm-a1",
+      "frames": 1139,
+      "matches": 60,
+      "elapsedMs": 11279,
+      "uiP50Ms": 2.047,
+      "uiP95Ms": 4.12,
+      "uiP99Ms": 5.381,
+      "rasterP50Ms": 3.276,
+      "rasterP95Ms": 6.177,
+      "rasterP99Ms": 7.257,
+      "over16_67ms": 0,
+      "over8_33ms": 5
+    },
+    {
+      "scenario": "match-5-full-c1",
+      "frames": 1028,
+      "matches": 60,
+      "elapsedMs": 11411,
+      "uiP50Ms": 4.138,
+      "uiP95Ms": 8.512,
+      "uiP99Ms": 11.538,
+      "rasterP50Ms": 5.893,
+      "rasterP95Ms": 10.704,
+      "rasterP99Ms": 13.436,
+      "over16_67ms": 4,
+      "over8_33ms": 222
+    },
+    {
+      "scenario": "match-5-minimal-c1",
+      "frames": 227,
+      "matches": 60,
+      "elapsedMs": 11278,
+      "uiP50Ms": 3.602,
+      "uiP95Ms": 5.63,
+      "uiP99Ms": 6.204,
+      "rasterP50Ms": 3.362,
+      "rasterP95Ms": 8.207,
+      "rasterP99Ms": 10.688,
+      "over16_67ms": 0,
+      "over8_33ms": 11
+    }
+  ],
+  "screenshots": [
+    "categories-dark",
+    "categories-light",
+    "done",
+    "match-4-calm-a1",
+    "match-5-full-c1",
+    "match-5-minimal-c1",
+    "progress-dark",
+    "progress-light",
+    "recall-dark",
+    "recall-light",
+    "review-dark",
+    "review-light",
+    "settings-dark",
+    "settings-light"
+  ],
+  "kind": "isolated model-driven board probe; no learner writes or input injection"
+}

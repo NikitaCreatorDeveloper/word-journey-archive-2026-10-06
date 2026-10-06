@@ -1,5 +1,13 @@
 # Word Journey
 
+## Скачать APK и установить
+
+[Скачать Word Journey для Android — APK (около 191 МБ)](https://github.com/NikitaCreatorDeveloper/word-journey-archive-2026-10-06/releases/download/full-backup-2026-10-06/word-journey.apk)
+
+[Инструкция по установке на русском](https://github.com/NikitaCreatorDeveloper/word-journey-archive-2026-10-06/blob/main/INSTALL.md)
+
+Android 7.0 и новее. Последняя сохранённая тестовая сборка, версия 1.0.0.
+
 Personal offline vocabulary trainer: Categories, Review, Progress.
 Travel/maps/routes have been retired. Match retains one paired-card engine.
 See docs/personal-trainer-plan.md and docs/personal-trainer-report.md.
